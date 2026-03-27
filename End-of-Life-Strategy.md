@@ -25,7 +25,7 @@
 
 The **CIA Project** will maintain its existing stack, utilizing `javax.*` dependencies and Vaadin 8, without transitioning to Jakarta namespaces. The project will reach EOL when compatibility with the latest JVM requires a Jakarta migration. Below is a structured plan to ensure stability, compatibility, and security until that point.
 
-This strategy should be considered alongside the [Financial Security Plan](FinancialSecurityPlan.md) and [Architecture Documentation](ARCHITECTURE.md) to understand the full technical context.
+This strategy should be considered alongside the [Architecture Documentation](ARCHITECTURE.md) to understand the full technical context.
 
 ---
 
@@ -85,7 +85,7 @@ See [README.md - Deployment Options](README.md#deployment-options) for deploymen
   - [Logback](http://logback.qos.ch/)
   - [Bouncy Castle](https://www.bouncycastle.org/)
 
-For security implementation details, see the [Financial Security Plan](FinancialSecurityPlan.md).
+For security implementation details, see the [Security Architecture](SECURITY_ARCHITECTURE.md).
 
 ### 🔐 ISMS Policy Governance
 
@@ -107,7 +107,6 @@ The ongoing maintenance strategy aligns with Hack23 AB's [ISMS-PUBLIC framework]
 - ✅ EOL components tracked in [Asset Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Asset_Register.md)
 
 **Related Documentation:**
-- 🔐 [ISMS Compliance Mapping](ISMS_COMPLIANCE_MAPPING.md) - Lifecycle security controls
 - 🛡️ [Security Architecture](SECURITY_ARCHITECTURE.md) - Current security implementation
 - 🔧 [Workflows](WORKFLOWS.md) - Automated security checks
 
@@ -168,9 +167,6 @@ For a conceptual overview of how these components interact, see the [System Mind
 ### 🛡️ Security & Compliance
 - [🛡️ Security Architecture](./SECURITY_ARCHITECTURE.md) - Current security implementation
 - [🎯 Threat Model](./THREAT_MODEL.md) - Lifecycle risk and residual threat alignment
-- [💰 Financial Security Plan](./FinancialSecurityPlan.md) - Security implementation details
-- [📋 CRA Assessment](./CRA-ASSESSMENT.md) - EU Cyber Resilience Act compliance
-- [🗺️ ISMS Compliance Mapping](./ISMS_COMPLIANCE_MAPPING.md) - Complete ISMS policy mapping
 
 ### 🔄 Operations & Workflows
 - [🔄 CI/CD Workflows](./WORKFLOWS.md) - Security-hardened CI/CD pipelines

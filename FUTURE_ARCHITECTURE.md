@@ -23,12 +23,9 @@ This document presents the evolution roadmap for the Citizen Intelligence Agency
 | **[CI/CD Workflows](WORKFLOWS.md)**                 | 🔧 DevOps       | Current automation processes              | [View Source](https://github.com/Hack23/cia/blob/master/WORKFLOWS.md)           |
 | **[Future Workflows](FUTURE_WORKFLOWS.md)**         | 🔧 DevOps       | Enhanced CI/CD with ML                    | [View Source](https://github.com/Hack23/cia/blob/master/FUTURE_WORKFLOWS.md)    |
 | **[End-of-Life Strategy](End-of-Life-Strategy.md)** | 📅 Lifecycle    | Maintenance and EOL planning              | [View Source](https://github.com/Hack23/cia/blob/master/End-of-Life-Strategy.md) |
-| **[Financial Security Plan](FinancialSecurityPlan.md)** | 💰 Security | Cost and security implementation          | [View Source](https://github.com/Hack23/cia/blob/master/FinancialSecurityPlan.md) |
 | **[Threat Model](THREAT_MODEL.md)**                 | 🛡️ Security     | Platform threat analysis (STRIDE/MITRE)   | [View Source](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md)        |
 | **[Future Threat Model](FUTURE_THREAT_MODEL.md)**   | 🛡️ Security     | Future threat landscape (AI/PQC/2026-2037)| [View Source](https://github.com/Hack23/cia/blob/master/FUTURE_THREAT_MODEL.md) |
 | **[CIA Features](https://hack23.com/cia-features.html)** | 🚀 Features | Platform features overview                | [View on hack23.com](https://hack23.com/cia-features.html)                     |
-| **[Business Continuity Plan](BCPPlan.md)**           | 📋 Resilience   | RTO/RPO targets and recovery procedures   | [View Source](https://github.com/Hack23/cia/blob/master/BCPPlan.md)             |
-| **[Business Product Document](BUSINESS_PRODUCT_DOCUMENT.md)** | 💼 Business | Data analytics and risk intelligence products | [View Source](https://github.com/Hack23/cia/blob/master/BUSINESS_PRODUCT_DOCUMENT.md) |
 
 </div>
 

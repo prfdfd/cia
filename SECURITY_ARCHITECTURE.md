@@ -56,16 +56,11 @@ This document outlines the comprehensive security architecture of the Citizen In
 | Document | Focus | Description |
 |----------|-------|-------------|
 | [🛡️ Security Architecture](SECURITY_ARCHITECTURE.md) | Current State | Complete security implementation overview |
-| [🔐 ISMS Compliance Mapping](ISMS_COMPLIANCE_MAPPING.md) | Policy Framework | Comprehensive ISMS-PUBLIC policy mapping |
 | [🚀 Future Security Architecture](FUTURE_SECURITY_ARCHITECTURE.md) | Roadmap | Future security enhancements and capabilities |
-| [💰 Financial Security Plan](FinancialSecurityPlan.md) | Investment | AWS security implementation costs and ROI |
 | [🏛️ Architecture](ARCHITECTURE.md) | System Design | Overall platform architecture |
 | [📅 End-of-Life Strategy](End-of-Life-Strategy.md) | Lifecycle | Technology maintenance and patching strategy |
 | [🎯 Threat Model](THREAT_MODEL.md) | Risk Analysis | STRIDE/MITRE ATT&CK threat analysis |
 | [🔮 Future Threat Model](FUTURE_THREAT_MODEL.md) | Risk Analysis | Future threat landscape (AI/PQC/2026-2037) |
-| [🛡️ CRA Assessment](CRA-ASSESSMENT.md) | Compliance | EU Cyber Resilience Act conformity |
-| [📋 Business Continuity Plan](BCPPlan.md) | Resilience | RTO/RPO targets and recovery procedures |
-| [💼 Business Product Document](BUSINESS_PRODUCT_DOCUMENT.md) | Business | Data analytics and risk intelligence products |
 
 ## 🔑 Authentication Architecture
 
@@ -1401,7 +1396,7 @@ Based on the security implementation described throughout this document, our inv
 
 5. **Compliance Management**: Resources for maintaining the implemented compliance controls mapped to NIST CSF, ISO 27001, and CIS Benchmarks.
 
-For detailed cost breakdowns of the AWS security implementation, refer to the [Financial Security Plan](FinancialSecurityPlan.md) referenced in our Security Documentation Map.
+For detailed information about the AWS security implementation, refer to our Security Documentation Map.
 
 ## 🏛️ AWS Well-Architected Alignment
 

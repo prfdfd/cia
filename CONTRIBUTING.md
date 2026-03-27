@@ -124,10 +124,8 @@ See [WORKFLOWS.md](WORKFLOWS.md) for details on CI/CD security controls.
 
 ### Security Resources
 
-- 🔐 [ISMS Compliance Mapping](ISMS_COMPLIANCE_MAPPING.md) - Complete security framework
 - 🛡️ [Security Architecture](SECURITY_ARCHITECTURE.md) - Platform security controls
 - 🎯 [Threat Model](THREAT_MODEL.md) - Known threats and mitigations
-- 📋 [CRA Assessment](CRA-ASSESSMENT.md) - Regulatory compliance
 
 ## Resources
 

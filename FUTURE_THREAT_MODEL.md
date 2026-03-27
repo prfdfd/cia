@@ -73,7 +73,6 @@ Integrated with:
 - [🛡️ FUTURE_SECURITY_ARCHITECTURE.md](./FUTURE_SECURITY_ARCHITECTURE.md) — Security controls roadmap
 - [🎯 THREAT_MODEL.md](./THREAT_MODEL.md) — Current threat model
 - [🔐 SECURITY_ARCHITECTURE.md](./SECURITY_ARCHITECTURE.md) — Current security implementation
-- [📋 ISMS_COMPLIANCE_MAPPING.md](./ISMS_COMPLIANCE_MAPPING.md) — ISMS policy alignment
 
 ---
 
@@ -89,10 +88,6 @@ Integrated with:
 | **[Future Security Architecture](FUTURE_SECURITY_ARCHITECTURE.md)** | 🛡️ Security | Security roadmap 2026–2037 | [View](https://github.com/Hack23/cia/blob/master/FUTURE_SECURITY_ARCHITECTURE.md) |
 | **[Threat Model](THREAT_MODEL.md)** | 🎯 Security | Current STRIDE/ATT&CK analysis | [View](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) |
 | **[Future Threat Model](FUTURE_THREAT_MODEL.md)** | 🎯 Security | Future threat landscape (this document) | [View](https://github.com/Hack23/cia/blob/master/FUTURE_THREAT_MODEL.md) |
-| **[ISMS Compliance](ISMS_COMPLIANCE_MAPPING.md)** | 🔐 ISMS | Policy alignment mapping | [View](https://github.com/Hack23/cia/blob/master/ISMS_COMPLIANCE_MAPPING.md) |
-| **[CRA Assessment](CRA-ASSESSMENT.md)** | 🛡️ Compliance | EU Cyber Resilience Act | [View](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md) |
-| **[Business Continuity Plan](BCPPlan.md)** | 📋 Resilience | RTO/RPO targets and recovery | [View](https://github.com/Hack23/cia/blob/master/BCPPlan.md) |
-| **[Business Product Document](BUSINESS_PRODUCT_DOCUMENT.md)** | 💼 Business | Risk intelligence products | [View](https://github.com/Hack23/cia/blob/master/BUSINESS_PRODUCT_DOCUMENT.md) |
 
 </div>
 

@@ -132,11 +132,9 @@ mvn spring-boot:run
 | **[CI/CD Workflows](WORKFLOWS.md)**                 | 🔧 DevOps       | Current automation processes              | [View Source](https://github.com/Hack23/cia/blob/master/WORKFLOWS.md)           |
 | **[Future Workflows](FUTURE_WORKFLOWS.md)**         | 🔧 DevOps       | Enhanced CI/CD with ML                    | [View Source](https://github.com/Hack23/cia/blob/master/FUTURE_WORKFLOWS.md)    |
 | **[End-of-Life Strategy](End-of-Life-Strategy.md)** | 📅 Lifecycle    | Maintenance and EOL planning              | [View Source](https://github.com/Hack23/cia/blob/master/End-of-Life-Strategy.md) |
-| **[Financial Security Plan](FinancialSecurityPlan.md)** | 💰 Security | Cost and security implementation          | [View Source](https://github.com/Hack23/cia/blob/master/FinancialSecurityPlan.md) |
 | **[CIA Features](https://hack23.com/cia-features.html)** | 🚀 Features | Platform features overview                | [View on hack23.com](https://hack23.com/cia-features.html)                     |
 | **[Threat Model](THREAT_MODEL.md)**                 | 🛡️ Security     | STRIDE / MITRE risk analysis              | [View Source](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md)        |
 | **[Unit Test Plan](UnitTestPlan.md)**               | 🧪 Testing      | Comprehensive testing strategy & coverage | [View Source](https://github.com/Hack23/cia/blob/master/UnitTestPlan.md)        |
-| **[Documentation Naming Convention](DOCUMENTATION_NAMING_CONVENTION.md)** | 📝 Standards | Naming standards for new documentation | [View Source](https://github.com/Hack23/cia/blob/master/DOCUMENTATION_NAMING_CONVENTION.md) |
 
 </div>
 
@@ -676,7 +674,6 @@ For our future vision incorporating more advanced AI capabilities, see our [Futu
 - [🔐 Security Architecture](SECURITY_ARCHITECTURE.md) - Defense-in-depth security implementation
 - [🚀 Future Security Architecture](FUTURE_SECURITY_ARCHITECTURE.md) - Advanced security capabilities roadmap
 - [🎯 Threat Model](THREAT_MODEL.md) - STRIDE/MITRE ATT&CK threat analysis
-- [💰 Financial Security Plan](FinancialSecurityPlan.md) - AWS security deployment and costs
 - [🔒 Security Policy](SECURITY.md) - Vulnerability disclosure and security reporting
 
 ### 🔄 Operations & Development
