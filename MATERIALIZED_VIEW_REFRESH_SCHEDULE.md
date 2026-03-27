@@ -167,7 +167,5 @@ This will rollback all 16 changesets from v1.69 and restore the original regular
 
 ## Related Documentation
 
-- **PATTERN_RECOGNITION_PERFORMANCE_REPORT.md**: Performance analysis identifying views for materialization
-- **TEMPORAL_ANALYSIS_PERFORMANCE_REPORT.md**: Temporal framework performance analysis
 - **service.data.impl/src/main/resources/db-changelog-1.69.xml**: Liquibase changelog for view conversions
 - **service.data.impl/README-SCHEMA-MAINTENANCE.md**: Schema maintenance procedures

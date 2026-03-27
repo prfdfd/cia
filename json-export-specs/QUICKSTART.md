@@ -171,7 +171,6 @@ v1.0.0/
 | Document | Description | Link |
 |----------|-------------|------|
 | **README** | Main overview and architecture | [README.md](./README.md) |
-| **Implementation Guide** | Step-by-step implementation | [IMPLEMENTATION_GUIDE.md](./IMPLEMENTATION_GUIDE.md) |
 | **Politician Schema** | Detailed politician JSON format | [schemas/politician-schema.md](./schemas/politician-schema.md) |
 | **Party Schema** | Party profile format | [schemas/party-schema.md](./schemas/party-schema.md) |
 | **Ministry Schema** | Ministry data format | [schemas/ministry-schema.md](./schemas/ministry-schema.md) |

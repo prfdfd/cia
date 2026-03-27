@@ -245,7 +245,6 @@ Provided complete examples for:
 json-export-specs/
 ├── README.md (21KB)
 │   └── Architecture, CDN deployment, JavaScript examples
-├── IMPLEMENTATION_GUIDE.md (18KB)
 │   └── Step-by-step implementation with code
 ├── QUICKSTART.md (6.8KB)
 │   └── Quick reference and API endpoints
@@ -291,7 +290,6 @@ The specifications are **production-ready**. Implementation requires:
 ### 📞 Getting Started
 
 1. **Read**: `/json-export-specs/QUICKSTART.md`
-2. **Implement**: Follow `/json-export-specs/IMPLEMENTATION_GUIDE.md`
 3. **Deploy**: Run `/json-export-specs/deploy-cdn.sh`
 4. **Integrate**: Use examples in `/json-export-specs/examples/`
 
