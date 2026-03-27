@@ -1,25 +1,4 @@
-<p align="center">
-</p>
-
-<h1 align="center">🤝 Contributing — Citizen Intelligence Agency</h1>
-
-<p align="center">
-  <strong>🛡️ Secure Contribution Guidelines</strong><br>
-  <em>🎯 Building Democratic Transparency Through Collaborative Excellence</em>
-</p>
-
-<p align="center">
-</p>
-
-
----
-
-## 🎯 **Purpose Statement**
-
-This contributing guide establishes secure contribution procedures for the Citizen Intelligence Agency, implementing [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) and [Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md) from Hack23 AB's ISMS framework.
-
-We believe in **security through transparency** and **continuous improvement**, welcoming contributions that enhance the project while maintaining our high security standards.
-
+# Contributing to Citizen Intelligence Agency
 
 ---
 
@@ -76,48 +55,27 @@ This project follows strict test naming conventions to separate unit tests from 
 
 **Why this matters**: The build system excludes `**ITest*` from unit test runs to keep CI fast and avoid external dependencies. Always use the correct suffix based on whether your test has external dependencies.
 
-## 🔐 Security Guidelines
-
-Contributing to this project requires adherence to Hack23 AB's security standards and ISMS policies.
+## Security Guidelines
 
 ### Security Requirements for Contributors
 
-All contributions must comply with the following security policies from our [ISMS-PUBLIC framework](https://github.com/Hack23/ISMS-PUBLIC):
-
-- **[Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md)**: Follow secure coding practices
-  - No hardcoded credentials or secrets in code
-  - Proper input validation and output encoding
-  - Use parameterized queries for database access
-  - Follow OWASP secure coding guidelines
-
-- **[Acceptable Use Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Acceptable_Use_Policy.md)**: Responsible use of resources
-  - Respect project infrastructure and resources
-  - Use development/test environments appropriately
-  - Report security vulnerabilities privately via [SECURITY.md](SECURITY.md)
-
-- **[Access Control Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Access_Control_Policy.md)**: Account and credential management
-  - Use strong authentication for your GitHub account
-  - Enable 2FA on your GitHub account
-  - Protect your development environment and credentials
+- No hardcoded credentials or secrets in code
+- Proper input validation and output encoding
+- Use parameterized queries for database access
+- Follow OWASP secure coding guidelines
+- Report security vulnerabilities privately via [SECURITY.md](SECURITY.md)
 
 ### Automated Security Checks
 
-All pull requests are automatically scanned for security issues:
-- ✅ **CodeQL Analysis** - Static application security testing (SAST)
-- ✅ **Dependency Review** - Software composition analysis (SCA)
-- ✅ **Secret Scanning** - Credential leak detection
-- ✅ **OSSF Scorecard** - Security best practices verification
-
-See [WORKFLOWS.md](WORKFLOWS.md) for details on CI/CD security controls.
+All pull requests are automatically scanned:
+- **CodeQL Analysis** - Static application security testing (SAST)
+- **Dependency Review** - Software composition analysis (SCA)
+- **Secret Scanning** - Credential leak detection
+- **OSSF Scorecard** - Security best practices verification
 
 ### Reporting Security Vulnerabilities
 
-**Do not open public issues for security vulnerabilities.** Instead, follow our [Security Policy](SECURITY.md) to report vulnerabilities privately.
-
-### Security Resources
-
-- 🛡️ [Security Architecture](SECURITY_ARCHITECTURE.md) - Platform security controls
-- 🎯 [Threat Model](THREAT_MODEL.md) - Known threats and mitigations
+**Do not open public issues for security vulnerabilities.** Follow our [Security Policy](SECURITY.md) to report vulnerabilities privately.
 
 ## Resources
 
@@ -127,23 +85,12 @@ See [WORKFLOWS.md](WORKFLOWS.md) for details on CI/CD security controls.
 
 ---
 
-## 📚 Related Documents
+## Related Documents
 
-### 🛠️ Development & Security Policies
-- [🛠️ Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) - Development security standards
-- [📝 Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md) - Change control procedures
-- [🔐 Information Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Information_Security_Policy.md) - Overall security governance
-- [🔍 Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) - Security testing and remediation
-
-### 📝 Testing & Documentation
-- [🧪 Unit Test Plan](./UnitTestPlan.md) - Unit testing requirements
-- [🌐 E2E Test Plan](./E2ETestPlan.md) - End-to-end testing standards
-- [🔄 CI/CD Workflows](./WORKFLOWS.md) - Security-hardened CI/CD pipelines
-
-### 📋 Project Governance
-- [📜 Code of Conduct](./CODE_OF_CONDUCT.md) - Community standards
-- [🔐 Security Policy](./SECURITY.md) - Vulnerability reporting
-- [📋 README](./README.md) - Project overview
-
----
+- [Unit Test Plan](./UnitTestPlan.md) - Unit testing requirements
+- [E2E Test Plan](./E2ETestPlan.md) - End-to-end testing standards
+- [CI/CD Workflows](./WORKFLOWS.md) - CI/CD pipelines
+- [Code of Conduct](./CODE_OF_CONDUCT.md) - Community standards
+- [Security Policy](./SECURITY.md) - Vulnerability reporting
+- [README](./README.md) - Project overview
 

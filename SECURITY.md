@@ -8,9 +8,9 @@ This security policy establishes vulnerability disclosure and incident response 
 
 This project is under active development, and we provide security updates for the latest version only. Please ensure you're using the latest version of the project to receive security updates.
 
-| Version | Supported          | ISMS Policy |
-| ------- | ------------------ | ----------- |
-| latest  | :white_check_mark: | [Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) |
+| Version | Supported          |
+| ------- | ------------------ |
+| latest  | :white_check_mark: |
 
 ## Security Posture
 

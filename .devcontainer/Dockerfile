@@ -1,10 +1,17 @@
 FROM mcr.microsoft.com/devcontainers/java:26-bookworm
 
 # Install all packages in a single layer to reduce image size
+# Chrome is only available for amd64; on arm64 we install Chromium instead
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
-    && echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list \
-    && apt-get update \
+    && ARCH=$(dpkg --print-architecture) \
+    && if [ "$ARCH" = "amd64" ]; then \
+        wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+        && echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list \
+        && apt-get update \
+        && apt-get -y install --no-install-recommends google-chrome-stable; \
+    else \
+        apt-get -y install --no-install-recommends chromium; \
+    fi \
     && apt-get -y install --no-install-recommends \
     graphviz \
     build-essential \
@@ -24,7 +31,6 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     gnupg2 \
     xvfb \
     xauth \
-    google-chrome-stable \
     xdg-utils \
     libnss3 \
     libgbm1 \
@@ -45,16 +51,22 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /etc/apt/sources.list.d/pgdg.list
 
-# Add Chrome environment variables
-ENV CHROME_BIN=/usr/bin/google-chrome
-ENV CHROME_PATH=/usr/lib/chromium/
+# Set Chrome/Chromium environment variables based on architecture
+# and create a compatibility symlink so scripts expecting 'google-chrome' work on arm64
+RUN ARCH=$(dpkg --print-architecture) \
+    && if [ "$ARCH" = "amd64" ]; then \
+        echo "CHROME_BIN=/usr/bin/google-chrome" >> /etc/environment; \
+        echo "CHROME_PATH=/usr/lib/google-chrome/" >> /etc/environment; \
+    else \
+        echo "CHROME_BIN=/usr/bin/chromium" >> /etc/environment; \
+        echo "CHROME_PATH=/usr/lib/chromium/" >> /etc/environment; \
+        ln -sf /usr/bin/chromium /usr/local/bin/google-chrome; \
+    fi \
+    && mkdir -p /opt/chrome/sandbox \
+    && chown root:root /opt/chrome/sandbox \
+    && chmod 4755 /opt/chrome/sandbox
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 ENV DISPLAY=:99
-
-# Create Chrome sandbox
-RUN mkdir -p /opt/chrome/sandbox && \
-    chown root:root /opt/chrome/sandbox && \
-    chmod 4755 /opt/chrome/sandbox
 
 # Configure Git
 RUN git config --system core.fileMode false \
@@ -72,7 +84,7 @@ RUN chmod +x /usr/local/bin/init-postgresql.sh \
 ARG MAVEN_VERSION=3.9.14
 ENV MAVEN_HOME=/usr/share/maven
 ENV PATH=${PATH}:${MAVEN_HOME}/bin
-ENV MAVEN_OPTS="-Xmx8192m -Xms2048m -XX:+UseG1GC"
+ENV MAVEN_OPTS="-Xmx4096m -Xms1024m -XX:+UseG1GC"
 ENV JAVA_TOOL_OPTIONS="\
     --add-exports=java.base/sun.nio.ch=ALL-UNNAMED \
     --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED \

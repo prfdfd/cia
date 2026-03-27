@@ -23,8 +23,6 @@ Establish a comprehensive future-state threat model for the Citizen Intelligence
 
 This future threat model demonstrates **🛡️ cybersecurity consulting expertise** through public documentation of advanced threat assessment methodologies for AI-enhanced civic platforms, showcasing our **🏆 competitive advantage** via proactive risk management and **🤝 customer trust** through transparent security practices.
 
-_— Based on Hack23 AB's commitment to security through transparency and excellence_
-
 ### **📚 Framework Integration**
 
 - **🎭 STRIDE per future architecture element:** Systematic threat categorization for AI-enhanced components
@@ -51,15 +49,6 @@ _— Based on Hack23 AB's commitment to security through transparency and excell
 - Current-state threats (covered in [THREAT_MODEL.md](./THREAT_MODEL.md))
 - Third-party downstream consumers of published dashboards
 - External data source security (Parliament API, Election Authority, World Bank)
-
-### **🔗 Policy Alignment**
-
-Integrated with:
-- [🎯 Hack23 AB Threat Modeling Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md) — STRIDE methodology
-- [🛠️ Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) — Security architecture requirements
-- [🔒 Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Cryptography_Policy.md) — Encryption standards & PQC migration
-- [🌐 Network Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Network_Security_Policy.md) — Zero-trust architecture
-- [🔑 Access Control Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Access_Control_Policy.md) — IAM and RBAC for AI systems
 
 **Cross-References:**
 - [🏗️ FUTURE_ARCHITECTURE.md](./FUTURE_ARCHITECTURE.md) — Platform evolution roadmap (2026–2037)
@@ -92,9 +81,9 @@ Integrated with:
 
 | Dimension | Current Level | Future Level (2027+) | Rationale | Business Impact |
 |----------|---------------|----------------------|-----------|----------------|
-| **🔐 Confidentiality** | [![Low/Public](https://img.shields.io/badge/C-Low_Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Medium](https://img.shields.io/badge/C-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | AI model weights, prompt templates, analytical algorithms become proprietary assets | AI intellectual property protection |
-| **🔒 Integrity** | [![High](https://img.shields.io/badge/I-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | AI-generated political analysis must be tamper-proof; autonomous decisions require integrity guarantees | Democratic trust depends on AI output integrity |
-| **⚡ Availability** | [![Medium-High](https://img.shields.io/badge/A-Medium_High-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![High](https://img.shields.io/badge/A-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Real-time parliamentary monitoring and predictive analytics require continuous operation | Revenue protection and civic duty |
+| **🔐 Confidentiality** | ![Low/Public](https://img.shields.io/badge/C-Low_Public-lightgrey?style=flat-square) | ![Medium](https://img.shields.io/badge/C-Medium-yellow?style=flat-square) | AI model weights, prompt templates, analytical algorithms become proprietary assets | AI intellectual property protection |
+| **🔒 Integrity** | ![High](https://img.shields.io/badge/I-High-orange?style=flat-square) | ![Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square) | AI-generated political analysis must be tamper-proof; autonomous decisions require integrity guarantees | Democratic trust depends on AI output integrity |
+| **⚡ Availability** | ![Medium-High](https://img.shields.io/badge/A-Medium_High-yellow?style=flat-square) | ![High](https://img.shields.io/badge/A-High-orange?style=flat-square) | Real-time parliamentary monitoring and predictive analytics require continuous operation | Revenue protection and civic duty |
 
 ### **⚖️ Future Regulatory & Compliance Profile**
 
@@ -159,16 +148,16 @@ flowchart TD
 
 | Asset ID | Asset | CIA Classification | Future Threat Level | Attack Attractiveness |
 |----------|-------|-------------------|--------------------|-----------------------|
-| **FASSET-001** | AI/LLM Political Analysis Models | C: Medium, I: Critical, A: High | [![Critical](https://img.shields.io/badge/Threat-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Very High — Unique political AI capability |
-| **FASSET-002** | Democratic Health Scoring Data | C: Low, I: Critical, A: High | [![Critical](https://img.shields.io/badge/Threat-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Very High — Influences public perception |
-| **FASSET-003** | Prompt Engineering Templates | C: High, I: High, A: Medium | [![High](https://img.shields.io/badge/Threat-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High — IP and attack vector |
-| **FASSET-004** | Real-time Monitoring Pipelines | C: Low, I: High, A: Critical | [![High](https://img.shields.io/badge/Threat-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High — Disruption target |
-| **FASSET-005** | AI Agent Orchestration Layer | C: Medium, I: Critical, A: High | [![Critical](https://img.shields.io/badge/Threat-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Very High — Autonomous actions |
-| **FASSET-006** | Post-Quantum Key Material | C: Critical, I: Critical, A: High | [![Critical](https://img.shields.io/badge/Threat-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Very High — Foundation of trust |
-| **FASSET-007** | Cross-National Political Patterns DB | C: Low, I: High, A: Medium | [![High](https://img.shields.io/badge/Threat-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Medium — Intelligence value |
-| **FASSET-008** | AI Training Data (Political Corpus) | C: Medium, I: Critical, A: Medium | [![High](https://img.shields.io/badge/Threat-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High — Poisoning target |
-| **FASSET-009** | Predictive Governance Models | C: Medium, I: Critical, A: High | [![High](https://img.shields.io/badge/Threat-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High — Democratic influence |
-| **FASSET-010** | Quantum-Resistant TLS Certificates | C: High, I: Critical, A: High | [![Critical](https://img.shields.io/badge/Threat-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Very High — Cryptographic trust |
+| **FASSET-001** | AI/LLM Political Analysis Models | C: Medium, I: Critical, A: High | ![Critical](https://img.shields.io/badge/Threat-Critical-red?style=flat-square) | Very High — Unique political AI capability |
+| **FASSET-002** | Democratic Health Scoring Data | C: Low, I: Critical, A: High | ![Critical](https://img.shields.io/badge/Threat-Critical-red?style=flat-square) | Very High — Influences public perception |
+| **FASSET-003** | Prompt Engineering Templates | C: High, I: High, A: Medium | ![High](https://img.shields.io/badge/Threat-High-orange?style=flat-square) | High — IP and attack vector |
+| **FASSET-004** | Real-time Monitoring Pipelines | C: Low, I: High, A: Critical | ![High](https://img.shields.io/badge/Threat-High-orange?style=flat-square) | High — Disruption target |
+| **FASSET-005** | AI Agent Orchestration Layer | C: Medium, I: Critical, A: High | ![Critical](https://img.shields.io/badge/Threat-Critical-red?style=flat-square) | Very High — Autonomous actions |
+| **FASSET-006** | Post-Quantum Key Material | C: Critical, I: Critical, A: High | ![Critical](https://img.shields.io/badge/Threat-Critical-red?style=flat-square) | Very High — Foundation of trust |
+| **FASSET-007** | Cross-National Political Patterns DB | C: Low, I: High, A: Medium | ![High](https://img.shields.io/badge/Threat-High-orange?style=flat-square) | Medium — Intelligence value |
+| **FASSET-008** | AI Training Data (Political Corpus) | C: Medium, I: Critical, A: Medium | ![High](https://img.shields.io/badge/Threat-High-orange?style=flat-square) | High — Poisoning target |
+| **FASSET-009** | Predictive Governance Models | C: Medium, I: Critical, A: High | ![High](https://img.shields.io/badge/Threat-High-orange?style=flat-square) | High — Democratic influence |
+| **FASSET-010** | Quantum-Resistant TLS Certificates | C: High, I: Critical, A: High | ![Critical](https://img.shields.io/badge/Threat-Critical-red?style=flat-square) | Very High — Cryptographic trust |
 
 ---
 
@@ -247,7 +236,7 @@ flowchart TB
 
 ### **🔍 Attacker-Centric Analysis — Emerging Techniques**
 
-Following [MITRE ATT&CK-Driven Analysis](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#mitre-attck-driven-analysis) methodology for future AI-enhanced attack vectors:
+Following MITRE ATT&CK-Driven Analysis methodology for future AI-enhanced attack vectors:
 
 | Phase | Technique | ID | Future CIA Context | Control | Detection |
 |-------|----------|----|-------------------|---------|-----------|
@@ -300,7 +289,7 @@ Following [MITRE ATT&CK-Driven Analysis](https://github.com/Hack23/ISMS-PUBLIC/b
 
 ### **🔗 Cyber Kill Chain × Defensive Controls — AI-Enhanced Platform**
 
-Following [Hack23 AB Kill Chain Analysis](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#attacker-centric-threat-modeling):
+Following Kill Chain Analysis methodology:
 
 | Kill Chain Phase | Future Attack Examples | Primary Defense | Detection Capability | Response Action |
 |-----------------|----------------------|-----------------|---------------------|-----------------|
@@ -318,16 +307,16 @@ Following [Hack23 AB Kill Chain Analysis](https://github.com/Hack23/ISMS-PUBLIC/
 
 ### **🔍 Detailed Threat Actor Classification**
 
-Following [Hack23 AB Threat Agent Classification](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#threat-agent-classification) methodology:
+Following Threat Agent Classification methodology:
 
 | Threat Agent | Category | Future CIA Context | Capability (2027+) | Motivation | Priority MITRE Techniques | Risk Level |
 |-------------|----------|-------------------|--------------------:|-----------|--------------------------|-----------|
-| **🏛️ Nation-State Actors** | External | AI-enhanced political interference targeting Swedish democratic transparency | Very High — State-funded AI research | Political influence, democratic undermining | T1190, T1565, T1195.002 | [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🤖 AI-Powered Adversaries** | External | Autonomous attack systems targeting AI components, adversarial ML | High — Off-the-shelf AI attack tools | Disruption, data theft, model manipulation | T1027, T1195.003, T1648 | [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🎭 Political Manipulation Groups** | External | Organized campaigns to bias AI-generated political analysis | Medium-High — Social engineering + AI tools | Political agenda, election influence | T1566, T1565, T1491 | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **💰 Cybercriminals** | External | Ransomware targeting AI infrastructure, crypto mining on AI compute | High — Ransomware-as-a-Service | Financial gain, extortion | T1486, T1496, T1499 | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔒 Malicious Insiders** | Internal | AI training data poisoning, model backdoor insertion | Medium — Legitimate access + AI knowledge | Political bias, sabotage | T1195.003, T1565, T1485 | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🤝 AI Service Providers** | Third-party | Model supply chain compromise, training data contamination | Medium — API-level access | Accidental or targeted | T1195.002, T1078, T1040 | [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🏛️ Nation-State Actors** | External | AI-enhanced political interference targeting Swedish democratic transparency | Very High — State-funded AI research | Political influence, democratic undermining | T1190, T1565, T1195.002 | ![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square) |
+| **🤖 AI-Powered Adversaries** | External | Autonomous attack systems targeting AI components, adversarial ML | High — Off-the-shelf AI attack tools | Disruption, data theft, model manipulation | T1027, T1195.003, T1648 | ![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square) |
+| **🎭 Political Manipulation Groups** | External | Organized campaigns to bias AI-generated political analysis | Medium-High — Social engineering + AI tools | Political agenda, election influence | T1566, T1565, T1491 | ![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square) |
+| **💰 Cybercriminals** | External | Ransomware targeting AI infrastructure, crypto mining on AI compute | High — Ransomware-as-a-Service | Financial gain, extortion | T1486, T1496, T1499 | ![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square) |
+| **🔒 Malicious Insiders** | Internal | AI training data poisoning, model backdoor insertion | Medium — Legitimate access + AI knowledge | Political bias, sabotage | T1195.003, T1565, T1485 | ![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square) |
+| **🤝 AI Service Providers** | Third-party | Model supply chain compromise, training data contamination | Medium — API-level access | Accidental or targeted | T1195.002, T1078, T1040 | ![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square) |
 
 ### **📊 Threat Agent Capability Evolution**
 
@@ -396,7 +385,7 @@ Implementing [ENISA Threat Landscape 2024](https://www.enisa.europa.eu/publicati
 
 ### **📝 Future Misuse Cases**
 
-Following [Hack23 AB Scenario-Centric Modeling](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#scenario-centric-threat-modeling):
+Following Scenario-Centric Modeling methodology:
 
 #### **Scenario F-1: AI-Powered Election Interference Campaign**
 
@@ -450,11 +439,11 @@ Following [Hack23 AB Scenario-Centric Modeling](https://github.com/Hack23/ISMS-P
 
 | What-If Scenario | Impact Assessment | Probability | Mitigation Priority |
 |-----------------|-------------------|:-----------:|:-------------------:|
-| What if quantum computers break current encryption by 2030? | All historical encrypted data exposed; political analysis methodologies compromised | Medium | [![Critical](https://img.shields.io/badge/Priority-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| What if LLM providers suffer major data breach exposing prompts? | Political analysis prompts and templates exposed; competitive advantage lost | Medium-High | [![High](https://img.shields.io/badge/Priority-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| What if AI-generated political analysis contains systematic bias? | Platform credibility destroyed; democratic transparency mission undermined | Medium | [![Critical](https://img.shields.io/badge/Priority-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| What if multiple AI models are simultaneously compromised? | Complete AI analytics failure during critical political period | Low | [![High](https://img.shields.io/badge/Priority-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| What if EU AI Act classifies platform as high-risk AI system? | Mandatory conformity assessment, significant compliance investment | High | [![High](https://img.shields.io/badge/Priority-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| What if quantum computers break current encryption by 2030? | All historical encrypted data exposed; political analysis methodologies compromised | Medium | ![Critical](https://img.shields.io/badge/Priority-Critical-red?style=flat-square) |
+| What if LLM providers suffer major data breach exposing prompts? | Political analysis prompts and templates exposed; competitive advantage lost | Medium-High | ![High](https://img.shields.io/badge/Priority-High-orange?style=flat-square) |
+| What if AI-generated political analysis contains systematic bias? | Platform credibility destroyed; democratic transparency mission undermined | Medium | ![Critical](https://img.shields.io/badge/Priority-Critical-red?style=flat-square) |
+| What if multiple AI models are simultaneously compromised? | Complete AI analytics failure during critical political period | Low | ![High](https://img.shields.io/badge/Priority-High-orange?style=flat-square) |
+| What if EU AI Act classifies platform as high-risk AI system? | Mandatory conformity assessment, significant compliance investment | High | ![High](https://img.shields.io/badge/Priority-High-orange?style=flat-square) |
 
 ---
 
@@ -464,18 +453,18 @@ Following [Hack23 AB Scenario-Centric Modeling](https://github.com/Hack23/ISMS-P
 
 | Threat ID | Threat | Likelihood (1-5) | Impact (1-5) | Risk Score | Risk Level | Trend |
 |-----------|--------|:-:|:-:|:-:|---|---|
-| **FT-001** | AI model poisoning / training data corruption | 3 | 5 | 15 | [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ↗️ Increasing |
-| **FT-002** | Prompt injection manipulating political analysis | 4 | 4 | 16 | [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ↗️ Increasing |
-| **FT-003** | Harvest-now-decrypt-later (quantum threat) | 4 | 4 | 16 | [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ↗️ Increasing |
-| **FT-004** | AI agent autonomous escalation | 2 | 5 | 10 | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ↗️ Increasing |
-| **FT-005** | Deepfake political content injection | 3 | 5 | 15 | [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ↗️ Increasing |
-| **FT-006** | AI-enhanced DDoS during election periods | 3 | 4 | 12 | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | → Stable |
-| **FT-007** | AI service provider breach / model supply chain | 3 | 4 | 12 | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ↗️ Increasing |
-| **FT-008** | Democratic health score manipulation | 2 | 5 | 10 | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ↗️ Increasing |
-| **FT-009** | AI-generated phishing targeting platform admins | 4 | 3 | 12 | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ↗️ Increasing |
-| **FT-010** | EU AI Act non-compliance penalties | 3 | 3 | 9 | [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ↗️ Increasing |
-| **FT-011** | Adversarial ML evasion of security classifiers | 3 | 3 | 9 | [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ↗️ Increasing |
-| **FT-012** | AI overreliance by platform users | 4 | 3 | 12 | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ↗️ Increasing |
+| **FT-001** | AI model poisoning / training data corruption | 3 | 5 | 15 | ![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square) | ↗️ Increasing |
+| **FT-002** | Prompt injection manipulating political analysis | 4 | 4 | 16 | ![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square) | ↗️ Increasing |
+| **FT-003** | Harvest-now-decrypt-later (quantum threat) | 4 | 4 | 16 | ![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square) | ↗️ Increasing |
+| **FT-004** | AI agent autonomous escalation | 2 | 5 | 10 | ![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square) | ↗️ Increasing |
+| **FT-005** | Deepfake political content injection | 3 | 5 | 15 | ![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square) | ↗️ Increasing |
+| **FT-006** | AI-enhanced DDoS during election periods | 3 | 4 | 12 | ![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square) | → Stable |
+| **FT-007** | AI service provider breach / model supply chain | 3 | 4 | 12 | ![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square) | ↗️ Increasing |
+| **FT-008** | Democratic health score manipulation | 2 | 5 | 10 | ![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square) | ↗️ Increasing |
+| **FT-009** | AI-generated phishing targeting platform admins | 4 | 3 | 12 | ![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square) | ↗️ Increasing |
+| **FT-010** | EU AI Act non-compliance penalties | 3 | 3 | 9 | ![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square) | ↗️ Increasing |
+| **FT-011** | Adversarial ML evasion of security classifiers | 3 | 3 | 9 | ![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square) | ↗️ Increasing |
+| **FT-012** | AI overreliance by platform users | 4 | 3 | 12 | ![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square) | ↗️ Increasing |
 
 ### **📈 Risk Heat Matrix — Future State**
 
@@ -599,7 +588,7 @@ flowchart TB
 
 ### **🔍 Complete Framework Integration**
 
-Following [Hack23 AB Comprehensive Threat Modeling Strategies](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#comprehensive-threat-modeling-strategies--models):
+Following Comprehensive Threat Modeling Strategies:
 
 ```mermaid
 %%{
@@ -654,7 +643,7 @@ mindmap
 
 ### **🎪 Threat Modeling Workshop Process**
 
-Following [Hack23 AB Workshop Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#threat-modeling-workshop-framework):
+Following Threat Modeling Workshop Framework:
 
 ```mermaid
 %%{
@@ -715,7 +704,7 @@ flowchart LR
 
 ### **📈 AI Security Maturity Framework**
 
-Following [Hack23 AB Maturity Levels](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#threat-modeling-maturity-levels) adapted for AI-enhanced platforms:
+Following Threat Modeling Maturity Levels adapted for AI-enhanced platforms:
 
 #### **🟢 Level 1: AI Security Foundation (2026)**
 

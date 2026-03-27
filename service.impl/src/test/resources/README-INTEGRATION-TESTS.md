@@ -177,7 +177,6 @@ If tests timeout after 300 seconds:
 
 ## Coverage Goals
 
-Per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md):
 - **Line Coverage**: 80% minimum
 - **Branch Coverage**: 70% minimum
 

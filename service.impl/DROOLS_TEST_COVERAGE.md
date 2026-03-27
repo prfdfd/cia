@@ -247,8 +247,6 @@ mvn test -Dtest=DroolsRulesValidationTest#testAllRulesCompileSuccessfully
 
 ### Compliance
 
-- ✅ **ISMS Compliance:** Meets ISO 27001 testing requirements
-- ✅ **Secure Development Policy:** Follows Hack23 ISMS-PUBLIC secure development guidelines
 - ✅ **Documentation:** Aligned with RISK_RULES_INTOP_OSINT.md and DROOLS_RISK_RULES.md
 
 ## Future Enhancements
@@ -304,7 +302,6 @@ mvn test -Dtest=DroolsRulesValidationTest#testAllRulesCompileSuccessfully
 
 - [RISK_RULES_INTOP_OSINT.md](../RISK_RULES_INTOP_OSINT.md) - Risk rules intelligence documentation
 - [DROOLS_RISK_RULES.md](../DROOLS_RISK_RULES.md) - Drools rules technical documentation
-- [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) - 80% line, 70% branch coverage targets
 - [Drools Documentation](https://www.drools.org/) - Drools rules engine reference
 
 ## Conclusion

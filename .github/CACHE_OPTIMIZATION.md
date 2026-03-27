@@ -165,7 +165,6 @@ Potential areas for additional caching:
 - [GitHub Actions Cache Documentation](https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows)
 - [actions/cache Repository](https://github.com/actions/cache)
 - [Cache Action v5.0.1 Release Notes](https://github.com/actions/cache/releases/tag/v5.0.1)
-- [Hack23 ISMS Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md)
 
 ## Changelog
 

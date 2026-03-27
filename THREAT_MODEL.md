@@ -22,7 +22,7 @@ Establish a comprehensive threat model for the Citizen Intelligence Agency (CIA)
 ### **🌟 Transparency Commitment**
 This threat model demonstrates **🛡️ cybersecurity consulting expertise** through public documentation of advanced threat assessment methodologies, showcasing our **🏆 competitive advantage** via systematic risk management and **🤝 customer trust** through transparent security practices.
 
-*— Based on Hack23 AB's commitment to security through transparency and excellence*
+*— Committed to security through transparency and excellence*
 
 ### **📚 Framework Integration**
 - **🎭 STRIDE per architecture element:** Systematic threat categorization
@@ -43,8 +43,8 @@ This threat model demonstrates **🛡️ cybersecurity consulting expertise** th
 - Third-party downstream consumers of published open dashboards (read-only usage)
 - External data source security (Parliament API, Election Authority, World Bank)
 
-### **🔗 Policy Alignment**
-Integrated with [🎯 Hack23 AB Threat Modeling Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md) methodology and frameworks.
+### **🔗 Methodology**
+Integrated with STRIDE, MITRE ATT&CK, and risk-centric threat modeling methodology and frameworks.
 
 ### **📚 Related Documents**
 
@@ -64,9 +64,9 @@ Integrated with [🎯 Hack23 AB Threat Modeling Policy](https://github.com/Hack2
 
 | Dimension | Level | Rationale | Business Impact |
 |----------|-------|-----------|----------------|
-| **🔐 Confidentiality** | [![Low/Public](https://img.shields.io/badge/C-Low_Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | Parliamentary, governmental, or open economic sources | [![Trust Enhancement](https://img.shields.io/badge/Value-Trust_Enhancement-darkgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔒 Integrity** | [![High](https://img.shields.io/badge/I-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | Analytical credibility & ranking accuracy critical | [![Operational Excellence](https://img.shields.io/badge/Value-Operational_Excellence-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **⚡ Availability** | [![Medium-High](https://img.shields.io/badge/A-Medium_High-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | Public civic transparency; tolerates brief maintenance | [![Revenue Protection](https://img.shields.io/badge/Value-Revenue_Protection-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🔐 Confidentiality** | [![Low/Public](https://img.shields.io/badge/C-Low_Public-lightgrey?style=flat-square)](#) | Parliamentary, governmental, or open economic sources | [![Trust Enhancement](https://img.shields.io/badge/Value-Trust_Enhancement-darkgreen?style=flat-square)](#) |
+| **🔒 Integrity** | [![High](https://img.shields.io/badge/I-High-orange?style=flat-square)](#) | Analytical credibility & ranking accuracy critical | [![Operational Excellence](https://img.shields.io/badge/Value-Operational_Excellence-blue?style=flat-square)](#) |
+| **⚡ Availability** | [![Medium-High](https://img.shields.io/badge/A-Medium_High-yellow?style=flat-square)](#) | Public civic transparency; tolerates brief maintenance | [![Revenue Protection](https://img.shields.io/badge/Value-Revenue_Protection-red?style=flat-square)](#) |
 
 ### **⚖️ Regulatory & Compliance Profile**
 
@@ -83,16 +83,16 @@ Integrated with [🎯 Hack23 AB Threat Modeling Policy](https://github.com/Hack2
 
 ### **🏗️ Asset-Centric Threat Analysis**
 
-Following [Hack23 AB Asset-Centric Threat Modeling](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#asset-centric-threat-modeling) methodology:
+Following asset-centric threat modeling methodology:
 
 | Asset Category | Why Valuable | Threat Goals | Key Controls | Business Value |
 |----------------|--------------|-------------|-------------|----------------|
-| **📊 Analytical Integrity** | Public trust in political metrics | Tampering, covert manipulation | DB RBAC, immutable audit (Javers), CSP, WAF | [![Trust Enhancement](https://img.shields.io/badge/Value-Trust_Enhancement-darkgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🧠 Source Code** | Policy logic, ranking algorithms | IP theft, malicious injection | Private repo controls, dependency scanning, SLSA provenance | [![Competitive Advantage](https://img.shields.io/badge/Value-Competitive_Advantage-gold?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔄 Import Pipelines** | Freshness & correctness | Poisoned input, replay, API abuse | Input validation, schema checks, rate limiting | [![Operational Excellence](https://img.shields.io/badge/Value-Operational_Excellence-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **👤 User Accounts** | Abuse vector | Credential stuffing, enumeration | Login throttling, password policy, MFA optional path | [![Risk Reduction](https://img.shields.io/badge/Value-Risk_Reduction-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔑 Admin Role** | Elevated capability | Privilege escalation | Method-level @Secured, restricted session generation | [![Security Excellence](https://img.shields.io/badge/Value-Security_Excellence-purple?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **☁️ Infrastructure Config** | Security baseline | Supply chain/manipulation | Template versioning, provenance attestations | [![Revenue Protection](https://img.shields.io/badge/Value-Revenue_Protection-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **📊 Analytical Integrity** | Public trust in political metrics | Tampering, covert manipulation | DB RBAC, immutable audit (Javers), CSP, WAF | [![Trust Enhancement](https://img.shields.io/badge/Value-Trust_Enhancement-darkgreen?style=flat-square)](#) |
+| **🧠 Source Code** | Policy logic, ranking algorithms | IP theft, malicious injection | Private repo controls, dependency scanning, SLSA provenance | [![Competitive Advantage](https://img.shields.io/badge/Value-Competitive_Advantage-gold?style=flat-square)](#) |
+| **🔄 Import Pipelines** | Freshness & correctness | Poisoned input, replay, API abuse | Input validation, schema checks, rate limiting | [![Operational Excellence](https://img.shields.io/badge/Value-Operational_Excellence-blue?style=flat-square)](#) |
+| **👤 User Accounts** | Abuse vector | Credential stuffing, enumeration | Login throttling, password policy, MFA optional path | [![Risk Reduction](https://img.shields.io/badge/Value-Risk_Reduction-green?style=flat-square)](#) |
+| **🔑 Admin Role** | Elevated capability | Privilege escalation | Method-level @Secured, restricted session generation | [![Security Excellence](https://img.shields.io/badge/Value-Security_Excellence-purple?style=flat-square)](#) |
+| **☁️ Infrastructure Config** | Security baseline | Supply chain/manipulation | Template versioning, provenance attestations | [![Revenue Protection](https://img.shields.io/badge/Value-Revenue_Protection-red?style=flat-square)](#) |
 
 ### **🔐 Crown Jewel Analysis**
 
@@ -151,7 +151,7 @@ flowchart TB
 
 ### **🏛️ Architecture-Centric STRIDE Analysis**
 
-Following [Architecture-Centric Threat Modeling](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#architecture-centric-threat-modeling) methodology:
+Following architecture-centric threat modeling methodology:
 
 ```mermaid
 %%{
@@ -236,7 +236,7 @@ flowchart TB
 
 ### **🔍 Attacker-Centric Analysis**
 
-Following [MITRE ATT&CK-Driven Analysis](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#mitre-attck-driven-analysis) methodology:
+Following MITRE ATT&CK-driven analysis methodology:
 
 | Phase | Technique | ID | CIA Context | Control | Detection |
 |-------|----------|----|-------------|---------|-----------|
@@ -318,7 +318,7 @@ The MITRE ATT&CK Navigator provides interactive visualization of threat coverage
 - 📚 [MITRE ATT&CK Enterprise Matrix](https://attack.mitre.org/matrices/enterprise/)
 - 🗺️ [ATT&CK Navigator Tool](https://mitre-attack.github.io/attack-navigator/)
 - 📋 [CISA Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-- 🎯 [Hack23 Threat Modeling Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#mitre-attck-integration)
+- 🎯 [MITRE ATT&CK Framework](https://attack.mitre.org/)
 
 ### **🌳 Attack Tree Analysis**
 
@@ -380,16 +380,16 @@ flowchart TD
 
 ### **🔴 Critical Threat Scenarios**
 
-Following [Risk-Centric Threat Modeling](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#risk-centric-threat-modeling) methodology:
+Following risk-centric threat modeling methodology:
 
 | # | Scenario | MITRE Tactic | Impact Focus | Likelihood | Risk | Key Mitigations | Residual Action |
 |---|----------|--------------|--------------|------------|------|-----------------|-----------------|
-| **1** | **🌐 Web Application Compromise** | [Initial Access](https://attack.mitre.org/tactics/TA0001/) | Data integrity manipulation | Medium | [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | WAF, validation, ORM parameterization | Add periodic data hash verification |
-| **2** | **🔗 Supply Chain Dependency Attack** | [Initial Access](https://attack.mitre.org/tactics/TA0001/) | Code integrity & confidentiality | Medium | [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | SBOM, pin SHAs, attestations | Add provenance verification policy gate |
-| **3** | **🔑 Administrative Credential Compromise** | [Credential Access](https://attack.mitre.org/tactics/TA0006/) | System-wide access | Low-Med | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Lockouts, strong policy, IP rate limiting | Enforce mandatory MFA for admin |
-| **4** | **🗄️ Database Exfiltration** | [Exfiltration](https://attack.mitre.org/tactics/TA0010/) | Political data confidentiality | Low | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Network isolation, least privilege | Implement query anomaly detection |
-| **5** | **🔄 Import Pipeline Data Poisoning** | [Impact](https://attack.mitre.org/tactics/TA0040/) | Analytical integrity | Medium | [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Schema validation, duplicate detection | Add source signature/etag validation |
-| **6** | **⚡ Distributed Denial of Service** | [Impact](https://attack.mitre.org/tactics/TA0040/) | Service availability | Medium | [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | WAF rate limits, autoscaling planned | Load test + capacity model update |
+| **1** | **🌐 Web Application Compromise** | [Initial Access](https://attack.mitre.org/tactics/TA0001/) | Data integrity manipulation | Medium | [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](#) | WAF, validation, ORM parameterization | Add periodic data hash verification |
+| **2** | **🔗 Supply Chain Dependency Attack** | [Initial Access](https://attack.mitre.org/tactics/TA0001/) | Code integrity & confidentiality | Medium | [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](#) | SBOM, pin SHAs, attestations | Add provenance verification policy gate |
+| **3** | **🔑 Administrative Credential Compromise** | [Credential Access](https://attack.mitre.org/tactics/TA0006/) | System-wide access | Low-Med | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](#) | Lockouts, strong policy, IP rate limiting | Enforce mandatory MFA for admin |
+| **4** | **🗄️ Database Exfiltration** | [Exfiltration](https://attack.mitre.org/tactics/TA0010/) | Political data confidentiality | Low | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](#) | Network isolation, least privilege | Implement query anomaly detection |
+| **5** | **🔄 Import Pipeline Data Poisoning** | [Impact](https://attack.mitre.org/tactics/TA0040/) | Analytical integrity | Medium | [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](#) | Schema validation, duplicate detection | Add source signature/etag validation |
+| **6** | **⚡ Distributed Denial of Service** | [Impact](https://attack.mitre.org/tactics/TA0040/) | Service availability | Medium | [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](#) | WAF rate limits, autoscaling planned | Load test + capacity model update |
 
 ### **⚖️ Risk Heat Matrix**
 
@@ -518,7 +518,7 @@ flowchart TB
 
 ### **🎪 Threat Modeling Workshop Process**
 
-Following [Hack23 AB Workshop Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#threat-modeling-workshop-framework):
+Following the threat modeling workshop framework:
 
 ```mermaid
 %%{
@@ -559,16 +559,16 @@ flowchart LR
 
 ### **🔍 Detailed Threat Actor Classification**
 
-Following [Hack23 AB Threat Agent Classification](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#threat-agent-classification) methodology:
+Following threat agent classification methodology:
 
 | Threat Agent | Category | CIA-Specific Context | MITRE Techniques | Risk Level | Political Motivation |
 |--------------|----------|---------------------|------------------|------------|-------------------|
-| **🏛️ Nation-State Actors** | External | Political interference, election influence | [Spearphishing](https://attack.mitre.org/techniques/T1566/001), [Data Manipulation](https://attack.mitre.org/techniques/T1565) | [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High - targeting political transparency |
-| **🎭 Hacktivists** | External | Political agenda promotion, transparency manipulation | [Defacement](https://attack.mitre.org/techniques/T1491), [DDoS](https://attack.mitre.org/techniques/T1499) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High - political platform targeting |
-| **💰 Cybercriminals** | External | Data monetization, political manipulation for hire | [Phishing](https://attack.mitre.org/techniques/T1566), [Ransomware](https://attack.mitre.org/techniques/T1486) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Medium - financial motivation |
-| **🔒 Accidental Insiders** | Internal | Unintentional data corruption, misconfigurations | [Data Deletion](https://attack.mitre.org/techniques/T1485), [Misconfiguration](https://attack.mitre.org/techniques/T1611) | [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Low - no political intent |
-| **🎯 Malicious Insiders** | Internal | Political bias injection, data manipulation | [Data Manipulation](https://attack.mitre.org/techniques/T1565), [Account Manipulation](https://attack.mitre.org/techniques/T1098) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High - political influence |
-| **🤝 Third-Party Providers** | External | Indirect access through service dependencies | [Supply Chain Compromise](https://attack.mitre.org/techniques/T1195), [Valid Accounts](https://attack.mitre.org/techniques/T1078) | [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Variable - depends on provider |
+| **🏛️ Nation-State Actors** | External | Political interference, election influence | [Spearphishing](https://attack.mitre.org/techniques/T1566/001), [Data Manipulation](https://attack.mitre.org/techniques/T1565) | [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](#) | High - targeting political transparency |
+| **🎭 Hacktivists** | External | Political agenda promotion, transparency manipulation | [Defacement](https://attack.mitre.org/techniques/T1491), [DDoS](https://attack.mitre.org/techniques/T1499) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](#) | High - political platform targeting |
+| **💰 Cybercriminals** | External | Data monetization, political manipulation for hire | [Phishing](https://attack.mitre.org/techniques/T1566), [Ransomware](https://attack.mitre.org/techniques/T1486) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](#) | Medium - financial motivation |
+| **🔒 Accidental Insiders** | Internal | Unintentional data corruption, misconfigurations | [Data Deletion](https://attack.mitre.org/techniques/T1485), [Misconfiguration](https://attack.mitre.org/techniques/T1611) | [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](#) | Low - no political intent |
+| **🎯 Malicious Insiders** | Internal | Political bias injection, data manipulation | [Data Manipulation](https://attack.mitre.org/techniques/T1565), [Account Manipulation](https://attack.mitre.org/techniques/T1098) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](#) | High - political influence |
+| **🤝 Third-Party Providers** | External | Indirect access through service dependencies | [Supply Chain Compromise](https://attack.mitre.org/techniques/T1195), [Valid Accounts](https://attack.mitre.org/techniques/T1078) | [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](#) | Variable - depends on provider |
 
 ---
 
@@ -580,13 +580,13 @@ Implementing [ENISA Threat Landscape 2024](https://www.enisa.europa.eu/publicati
 
 | ENISA Priority | Threat Category | CIA Platform Context | Specific Scenarios | Mitigation Strategy |
 |----------------|-----------------|----------------------|-------------------|-------------------|
-| **1️⃣** | **⚡ Availability Threats** | DoS against civic transparency services | Political period attacks, election interference | [![Revenue Protection](https://img.shields.io/badge/Value-Revenue_Protection-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) WAF + DDoS protection |
-| **2️⃣** | **🔐 Ransomware** | Parliamentary data encryption | Critical voting period disruption | [![Business Continuity](https://img.shields.io/badge/Value-Business_Continuity-darkred?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Immutable backups + isolation |
-| **3️⃣** | **📊 Data Threats** | Political data manipulation/theft | Ranking algorithm tampering, voter influence | [![Risk Reduction](https://img.shields.io/badge/Value-Risk_Reduction-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Integrity validation + audit |
-| **4️⃣** | **🦠 Malware** | System infiltration for data access | Persistent political espionage | [![Operational Excellence](https://img.shields.io/badge/Value-Operational_Excellence-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Endpoint protection + monitoring |
-| **5️⃣** | **🎭 Social Engineering** | Admin credential theft for access | Targeted phishing against civic platform staff | [![Trust Enhancement](https://img.shields.io/badge/Value-Trust_Enhancement-darkgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Security awareness + MFA |
-| **6️⃣** | **📰 Information Manipulation** | False political data injection | Disinformation campaigns via platform | [![Competitive Advantage](https://img.shields.io/badge/Value-Competitive_Advantage-gold?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Source validation + verification |
-| **7️⃣** | **🔗 Supply Chain** | Dependency compromise for backdoor access | Third-party library infiltration | [![Partnership Value](https://img.shields.io/badge/Value-Partnership_Value-purple?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) SBOM + provenance verification |
+| **1️⃣** | **⚡ Availability Threats** | DoS against civic transparency services | Political period attacks, election interference | [![Revenue Protection](https://img.shields.io/badge/Value-Revenue_Protection-red?style=flat-square)](#) WAF + DDoS protection |
+| **2️⃣** | **🔐 Ransomware** | Parliamentary data encryption | Critical voting period disruption | [![Business Continuity](https://img.shields.io/badge/Value-Business_Continuity-darkred?style=flat-square)](#) Immutable backups + isolation |
+| **3️⃣** | **📊 Data Threats** | Political data manipulation/theft | Ranking algorithm tampering, voter influence | [![Risk Reduction](https://img.shields.io/badge/Value-Risk_Reduction-green?style=flat-square)](#) Integrity validation + audit |
+| **4️⃣** | **🦠 Malware** | System infiltration for data access | Persistent political espionage | [![Operational Excellence](https://img.shields.io/badge/Value-Operational_Excellence-blue?style=flat-square)](#) Endpoint protection + monitoring |
+| **5️⃣** | **🎭 Social Engineering** | Admin credential theft for access | Targeted phishing against civic platform staff | [![Trust Enhancement](https://img.shields.io/badge/Value-Trust_Enhancement-darkgreen?style=flat-square)](#) Security awareness + MFA |
+| **6️⃣** | **📰 Information Manipulation** | False political data injection | Disinformation campaigns via platform | [![Competitive Advantage](https://img.shields.io/badge/Value-Competitive_Advantage-gold?style=flat-square)](#) Source validation + verification |
+| **7️⃣** | **🔗 Supply Chain** | Dependency compromise for backdoor access | Third-party library infiltration | [![Partnership Value](https://img.shields.io/badge/Value-Partnership_Value-purple?style=flat-square)](#) SBOM + provenance verification |
 
 ---
 
@@ -594,7 +594,7 @@ Implementing [ENISA Threat Landscape 2024](https://www.enisa.europa.eu/publicati
 
 ### **🔍 Complete Framework Integration**
 
-Following [Hack23 AB Comprehensive Threat Modeling Strategies](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#comprehensive-threat-modeling-strategies--models):
+Following comprehensive threat modeling strategies:
 
 ```mermaid
 %%{
@@ -649,7 +649,7 @@ mindmap
 
 ### **📝 Democratic Process Abuse Analysis**
 
-Following [Hack23 AB Scenario-Centric Modeling](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#scenario-centric-threat-modeling):
+Following scenario-centric threat modeling:
 
 #### **🚨 Political Misuse Cases**
 
@@ -745,17 +745,17 @@ flowchart TD
 
 ### **📊 Political Impact Quantification**
 
-Following [Risk-Centric Threat Modeling](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#risk-centric-threat-modeling):
+Following risk-centric threat modeling:
 
 #### **🏛️ Democratic Impact Assessment Matrix**
 
 | Threat Scenario | Probability | Democratic Impact | Public Trust Impact | Electoral Impact | Civic Risk Score |
 |----------------|-------------|-------------------|-------------------|------------------|------------------|
-| **🗳️ Election Period Data Manipulation** | 25% | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Very High](https://img.shields.io/badge/Impact-Very_High-darkred?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 9.5/10 |
-| **🏛️ Parliamentary Process Interference** | 20% | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 7.8/10 |
-| **👥 Politician Reputation Attacks** | 30% | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 8.2/10 |
-| **💰 Government Spending Manipulation** | 15% | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Low](https://img.shields.io/badge/Impact-Low-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 5.9/10 |
-| **📊 Statistical Methodology Attacks** | 10% | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Very High](https://img.shields.io/badge/Impact-Very_High-darkred?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 7.1/10 |
+| **🗳️ Election Period Data Manipulation** | 25% | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=flat-square)](#) | [![Very High](https://img.shields.io/badge/Impact-Very_High-darkred?style=flat-square)](#) | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=flat-square)](#) | 9.5/10 |
+| **🏛️ Parliamentary Process Interference** | 20% | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](#) | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](#) | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](#) | 7.8/10 |
+| **👥 Politician Reputation Attacks** | 30% | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](#) | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](#) | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](#) | 8.2/10 |
+| **💰 Government Spending Manipulation** | 15% | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](#) | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](#) | [![Low](https://img.shields.io/badge/Impact-Low-lightgreen?style=flat-square)](#) | 5.9/10 |
+| **📊 Statistical Methodology Attacks** | 10% | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](#) | [![Very High](https://img.shields.io/badge/Impact-Very_High-darkred?style=flat-square)](#) | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](#) | 7.1/10 |
 
 #### **📈 Political Threat Intelligence Integration**
 
@@ -773,7 +773,7 @@ Following [Risk-Centric Threat Modeling](https://github.com/Hack23/ISMS-PUBLIC/b
 
 ### **📋 Political Platform-Specific Preparation**
 
-Following [Hack23 AB Workshop Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#threat-modeling-workshop-framework) with civic transparency adaptations:
+Following the threat modeling workshop framework with civic transparency adaptations:
 
 #### **🎯 CIA-Specific Workshop Scope**
 - **🏛️ Democratic Process Mapping:** Parliamentary procedures, election cycles, government transparency requirements
@@ -814,7 +814,7 @@ Following [Hack23 AB Workshop Framework](https://github.com/Hack23/ISMS-PUBLIC/b
 
 ### **🏛️ Democracy-Specific Threat Documentation**
 
-Each political threat entry includes democratic impact assessment per [Threat Catalog Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#threat-catalog-framework):
+Each political threat entry includes democratic impact assessment per the threat catalog framework:
 
 #### **🔴 Critical Democratic Threats**
 
@@ -877,7 +877,7 @@ Each political threat entry includes democratic impact assessment per [Threat Ca
 
 ### **📈 Civic Platform Maturity Framework**
 
-Following [Hack23 AB Maturity Levels](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md#threat-modeling-maturity-levels) with democratic adaptations:
+Following threat modeling maturity levels with democratic adaptations:
 
 #### **🟢 Level 1: Democratic Foundation**
 - **🏛️ Basic Democratic Architecture:** Core civic transparency documentation with basic bias detection

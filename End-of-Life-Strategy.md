@@ -80,29 +80,6 @@ See [README.md - Deployment Options](README.md#deployment-options) for deploymen
 
 For security implementation details, see the [Security Architecture](SECURITY_ARCHITECTURE.md).
 
-### 🔐 ISMS Policy Governance
-
-The ongoing maintenance strategy aligns with Hack23 AB's [ISMS-PUBLIC framework](https://github.com/Hack23/ISMS-PUBLIC) to ensure systematic security management throughout the platform lifecycle.
-
-#### Maintenance Activities by ISMS Policy
-
-| 🛡️ ISMS Policy | 🔧 Maintenance Activity | 📋 Implementation |
-|---------------|------------------------|------------------|
-| [**Change Management**](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md) | Jetty 10 → Jetty 12 migration planning<br>Jakarta namespace evaluation | Risk-assessed transition with testing<br>Documented migration path |
-| [**Vulnerability Management**](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) | Automated security patching<br>Dependency updates via Dependabot | Weekly vulnerability scans<br>30-day patch SLA for critical issues |
-| [**Asset Register**](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Asset_Register.md) | EOL tracking for dependencies<br>Technology stack monitoring | Documented component lifecycle<br>Replacement planning for EOL tech |
-| [**Business Continuity Plan**](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Business_Continuity_Plan.md) | Platform availability during transitions<br>Rollback procedures | Multi-AZ deployment maintenance<br>Tested recovery procedures |
-
-**Security Assurance:**
-- ✅ All dependency updates security-vetted through [WORKFLOWS.md](WORKFLOWS.md) automated scanning
-- ✅ Version compatibility tested before production deployment
-- ✅ Security patches prioritized per [Vulnerability Management policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md)
-- ✅ EOL components tracked in [Asset Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Asset_Register.md)
-
-**Related Documentation:**
-- 🛡️ [Security Architecture](SECURITY_ARCHITECTURE.md) - Current security implementation
-- 🔧 [Workflows](WORKFLOWS.md) - Automated security checks
-
 ### Vaadin 8 UI Layer
 
 - **Current UI Strategy**: Continue using **Vaadin 8** to avoid the costs and major structural changes of migrating to Vaadin 10+.
@@ -166,11 +143,6 @@ For a conceptual overview of how these components interact, see the [System Mind
 - [🔮 Future Workflows](./FUTURE_WORKFLOWS.md) - Enhanced CI/CD roadmap
 - [🚀 CIA Features](https://hack23.com/cia-features.html) - Feature showcase with screenshots
 - [📊 Project Documentation](https://hack23.github.io/cia/) - Comprehensive developer resources
-
-### 🔐 ISMS Policies
-- [🔐 Information Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Information_Security_Policy.md) - Overall security governance
-- [🔍 Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) - Security testing and remediation
-- [📝 Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md) - Risk-controlled change processes
 
 ---
 

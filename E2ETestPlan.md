@@ -872,7 +872,6 @@ Tests run: 80, Failures: 0, Errors: 0, Skipped: 0
 ## 🔗 Related Resources
 
 ### Documentation
-- [Secure Development Policy - E2E Testing Requirements](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md#-end-to-end-testing-strategy)
 - [CIA Architecture Documentation](https://github.com/Hack23/cia/blob/master/ARCHITECTURE.md)
 - [CIA Security Architecture](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md)
 
@@ -893,49 +892,8 @@ Tests run: 80, Failures: 0, Errors: 0, Skipped: 0
 - [Integration Test Suite](https://github.com/Hack23/cia/tree/master/citizen-intelligence-agency/src/test/java/com/hack23/cia/systemintegrationtest)
 - [Unit Test Foundation](https://github.com/Hack23/cia/tree/master/testfoundation/src/main/java/com/hack23/cia/testfoundation)
 
-## 📋 Compliance & Standards
-
-### ISMS Policy Alignment
-
-This E2E Test Plan fulfills requirements from:
-
-**Secure Development Policy**:
-- ✅ E2ETestPlan.md documentation requirement
-- ✅ Comprehensive E2E testing strategy
-- ✅ Critical path coverage documentation
-- ✅ Browser compatibility testing approach
-- ✅ Integration with CI/CD pipeline
-- ✅ Public test results availability
-
-**Information Security Policy**:
-- ✅ Security testing integration (ISO 27001 A.12.1.4)
-- ✅ Test data management and protection
-- ✅ Access control validation in tests
-- ✅ Authentication and authorization testing
-
-**Quality Standards**:
-- ✅ ISO 27001 (A.12.1.4) - Testing of security controls
-- ✅ NIST CSF (PR.IP-2) - System Development Life Cycle testing
-- ✅ CRA (Cyber Resilience Act) - Quality assurance requirements
-- ✅ OWASP ASVS - Security verification through testing
-
-### Continuous Improvement
-
-**Review Cycle**: Quarterly review of E2E test strategy and coverage
-**Next Review**: Per ISMS compliance schedule
-**Metrics Tracking**: Test execution time, coverage, and success rate
-**Stakeholder Updates**: Regular reporting to project stakeholders and development team
-
----
-
 ## 📊 Metadata
 
-**Review Cycle:** Quarterly | **Next Review:** 2026-02-14  
-**Classification:** Public | **Compliance:** ISO 27001, NIST CSF, CRA
-
----
-
-*This E2E Test Plan demonstrates Hack23 AB's commitment to quality, transparency, and comprehensive testing practices. Our end-to-end testing strategy ensures the Citizen Intelligence Agency platform maintains the highest standards of reliability, security, and user experience.*
-
-*"Testing is not just about finding bugs—it's about building confidence in our system and demonstrating our commitment to quality democratic technology."*
+**Review Cycle:** Quarterly | **Next Review:** 2026-02-14
+**Classification:** Public
 

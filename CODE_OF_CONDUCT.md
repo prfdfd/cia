@@ -16,7 +16,7 @@
 
 ## 🎯 **Purpose Statement**
 
-This project follows the [No Code of Conduct](https://github.com/domgetter/NCoC) — we are all adults, we accept anyone's contributions, and nothing else matters. This document formalizes that stance within Hack23 AB's governance framework.
+This project follows the [No Code of Conduct](https://github.com/domgetter/NCoC) — we are all adults, we accept anyone's contributions, and nothing else matters.
 
 
 ---
@@ -35,11 +35,6 @@ For more information please visit the [No Code of Conduct](https://github.com/do
 - [🤝 Contributing Guidelines](./CONTRIBUTING.md) - Contribution procedures
 - [🔐 Security Policy](./SECURITY.md) - Vulnerability reporting
 - [📋 README](./README.md) - Project overview and classification
-
-### 🛡️ Security & Compliance
-- [🔐 Information Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Information_Security_Policy.md) - Security governance
-- [🛠️ Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) - Development standards
-- [📝 Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md) - Change control procedures
 
 ---
 

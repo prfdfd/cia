@@ -5,8 +5,6 @@
 [![Code Quality](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Hack23_cia)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Hack23_cia)
 
-> **Compliance Statement**: This document fulfills the testing requirements of the [Hack23 Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) as mandated by ISO 27001 (A.12.1.4), NIST CSF (PR.IP-2), and CIS Controls (16.8).
-
 ---
 
 ## 📋 Table of Contents
@@ -551,11 +549,6 @@ This testing approach satisfies:
 - [Contributing Guidelines](CONTRIBUTING.md) - Development workflow and standards
 - [Data Model](DATA_MODEL.md) - Database schema and entities
 
-### External Standards
-- [Hack23 ISMS Public Repository](https://github.com/Hack23/ISMS-PUBLIC)
-- [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md)
-- [Information Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Information_Security_Policy.md)
-
 ### Testing Resources
 - [JUnit 4 Documentation](https://junit.org/junit4/)
 - [Mockito Documentation](https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html)
@@ -572,7 +565,6 @@ This testing approach satisfies:
 
 **Project Leadership:**
 - **Maintainer**: James Sörling
-- **Organization**: Hack23 AB
 - **Website**: https://www.hack23.com
 
 ---
@@ -601,8 +593,6 @@ Coverage trends and historical data available at:
 **Document Version**: 1.0  
 **Last Updated**: 2025-11-14  
 **Next Review**: 2026-02-14 (Quarterly)  
-**Owner**: Hack23 AB Development Team  
-**Compliance Status**: ✅ **ISMS-Compliant**
 
 ---
 

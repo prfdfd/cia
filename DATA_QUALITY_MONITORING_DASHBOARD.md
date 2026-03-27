@@ -839,14 +839,11 @@ This dashboard integrates with comprehensive intelligence documentation across t
 | **World Bank** | [data.worldbank.org](https://data.worldbank.org/) | World Bank Open Data portal |
 | **Financial Authority** | [esv.se](https://www.esv.se/) | Swedish Financial Management Authority |
 
-### ISMS & Security
+### Security
 
 | Document | Focus | Link |
 |----------|-------|------|
 | **[Security Policy](SECURITY.md)** | Security | Platform security policy and reporting |
-| **[Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md)** | ISMS | Development security standards |
-| **[Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md)** | ISMS | Vulnerability handling procedures |
-| **[Incident Response Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Incident_Response_Plan.md)** | ISMS | Security incident response |
 
 ---
 
@@ -1093,7 +1090,7 @@ dataquality.alert.minor.enabled=false
 - Integration tests for database operations
 - UI tests with Selenium
 - User guides and training materials
-- ISMS documentation updates
+- Security documentation updates
 
 ---
 

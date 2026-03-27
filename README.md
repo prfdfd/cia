@@ -590,21 +590,21 @@ brew install --cask temurin@21
 brew install maven
 
 # Install PostgreSQL
-brew install postgresql@17
+brew install postgresql@18
 ```
 
-> **Note:** PostgreSQL 18 may not yet be available in Homebrew. Use the latest available version (17+). The pgaudit and pgvector extensions required for production are not available via Homebrew, but are not needed for basic local development and building.
+> **Note:** The pgaudit and pgvector extensions required for production are not available via Homebrew, but are not needed for basic local development and building.
 
 #### Start and Configure PostgreSQL
 
 ```bash
-brew services start postgresql@17
+brew services start postgresql@18
 
 # Enable prepared transactions
 psql -U $(whoami) -d postgres -c "ALTER SYSTEM SET max_prepared_transactions = 100;"
 
 # Restart to apply
-brew services restart postgresql@17
+brew services restart postgresql@18
 ```
 
 #### Create the Database

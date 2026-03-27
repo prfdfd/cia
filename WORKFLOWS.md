@@ -637,23 +637,6 @@ on:
 - PR validation prevents documentation drift
 - Historical tracking via 90-day artifact retention
 
-## 🔐 ISMS Policy Integration
-
-
-### Security Controls by ISMS Policy
-
-| 🛡️ ISMS Policy | 🔧 Workflow Implementation | 📋 Evidence |
-|---------------|---------------------------|-----------|
-| [**Secure Development Policy**](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) | CodeQL SAST scanning, Dependency Review SCA, SBOM generation | [CodeQL workflow](.github/workflows/codeql-analysis.yml) |
-| [**Vulnerability Management**](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) | Dependabot automated patching, Weekly security scans, OSSF Scorecard | [Scorecard workflow](.github/workflows/scorecards.yml) |
-| [**Change Management**](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md) | PR workflow with automated checks, Version control, Automated testing | [Release workflow](.github/workflows/release.yml) |
-| [**Third-Party Management**](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Third_Party_Management.md) | Dependency review on PRs, SBOM attestations, Supply chain security | [Dependency Review workflow](.github/workflows/dependency-review.yml) |
-| [**Security Metrics**](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md) | OpenSSF Scorecard monitoring, Test coverage reporting, Build metrics | Automated dashboards |
-
-**Related Documentation:**
-- 🛡️ [Security Architecture](SECURITY_ARCHITECTURE.md) - Implementation details
-- 🎯 [Threat Model](THREAT_MODEL.md) - Risk-based security controls
-
 ## 🚀 Verify & Release Workflow
 
 This comprehensive workflow handles the verification and release process, including building, testing, attestation generation, and release publication.
@@ -1174,12 +1157,6 @@ The CI/CD workflows implement the following ISO 27001:2022 controls:
 | **Transparency** | Public workflows, badges, documentation |
 
 ## 🔗 Related Resources
-
-### ISMS Compliance Documentation
-- [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) - CI/CD workflow requirements
-- [Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) - Vulnerability handling procedures
-- [Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md) - Change control processes
-- [Third-Party Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Third_Party_Management.md) - Dependency management policies
 
 ### Security Documentation
 - [Security Architecture](SECURITY_ARCHITECTURE.md) - Complete security overview
