@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="https://hack23.com/icon-192.png" alt="Hack23 Logo" width="192" height="192">
 </p>
 
 <h1 align="center">📊 Data Analysis — Intelligence Operations & OSINT</h1>
@@ -10,13 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--19-success?style=for-the-badge" alt="Effective Date"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2026-01-19 (UTC)  
 
 ---
 
@@ -113,7 +107,6 @@ This document provides comprehensive documentation of data analysis methodologie
 | **[Data Model](DATA_MODEL.md)** | 📊 Data Model | Database schema and relationships | [View](https://github.com/Hack23/cia/blob/master/DATA_MODEL.md) |
 | **[Architecture](ARCHITECTURE.md)** | 🏛️ Architecture | System architecture (C4 model) | [View](https://github.com/Hack23/cia/blob/master/ARCHITECTURE.md) |
 | **[Flowcharts](FLOWCHART.md)** | 🔄 Process | Data processing workflows | [View](https://github.com/Hack23/cia/blob/master/FLOWCHART.md) |
-| **[SWOT Analysis](SWOT.md)** | 💼 Strategic | Strategic assessment | [View](https://github.com/Hack23/cia/blob/master/SWOT.md) |
 | **[Threat Model](THREAT_MODEL.md)** | 🛡️ Security | Threat analysis (STRIDE/MITRE) | [View](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) |
 
 </div>
@@ -10084,7 +10077,6 @@ print(f"95th Percentile: {percentile_95:.2f}%")
 - [Data Model](DATA_MODEL.md) - Database structure
 - [Architecture](ARCHITECTURE.md) - System architecture
 - [Flowcharts](FLOWCHART.md) - Data processing workflows
-- [SWOT Analysis](SWOT.md) - Strategic assessment
 - [Threat Model](THREAT_MODEL.md) - Security analysis
 
 ### External Resources

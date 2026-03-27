@@ -103,10 +103,6 @@ mvn clean install -DskipTests
 
 # Build with tests
 mvn clean install
-
-# Run specific module
-cd citizen-intelligence-agency
-mvn spring-boot:run
 ```
 
 ## 📚 Architecture Documentation Map
@@ -121,8 +117,6 @@ mvn spring-boot:run
 | **[Future Security Architecture](FUTURE_SECURITY_ARCHITECTURE.md)** | 🔐 Security     | Future Security architecture  | [View Source](https://github.com/Hack23/cia/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)         |
 | **[Mindmaps](MINDMAP.md)**                          | 🧠 Concept      | Current system component relationships    | [View Source](https://github.com/Hack23/cia/blob/master/MINDMAP.md)             |
 | **[Future Mindmaps](FUTURE_MINDMAP.md)**            | 🧠 Concept      | Future capability evolution               | [View Source](https://github.com/Hack23/cia/blob/master/FUTURE_MINDMAP.md)      |
-| **[SWOT Analysis](SWOT.md)**                        | 💼 Business     | Current strategic assessment              | [View Source](https://github.com/Hack23/cia/blob/master/SWOT.md)                |
-| **[Future SWOT Analysis](FUTURE_SWOT.md)**          | 💼 Business     | Future strategic opportunities            | [View Source](https://github.com/Hack23/cia/blob/master/FUTURE_SWOT.md)         |
 | **[Data Model](DATA_MODEL.md)**                     | 📊 Data         | Current data structures and relationships | [View Source](https://github.com/Hack23/cia/blob/master/DATA_MODEL.md)          |
 | **[Future Data Model](FUTURE_DATA_MODEL.md)**       | 📊 Data         | Enhanced political data architecture      | [View Source](https://github.com/Hack23/cia/blob/master/FUTURE_DATA_MODEL.md)   |
 | **[Flowcharts](FLOWCHART.md)**                      | 🔄 Process      | Current data processing workflows         | [View Source](https://github.com/Hack23/cia/blob/master/FLOWCHART.md)           |
@@ -576,74 +570,71 @@ postgres=# GRANT ALL PRIVILEGES ON DATABASE cia_dev to eris;
 
 ## macOS (Apple Silicon / M1) Development Setup
 
-### Prerequisites
+### Recommended: Dev Container
+
+The easiest way to develop on macOS is using the included [Dev Container](.devcontainer/), which provides a fully configured environment with all required PostgreSQL extensions (pgaudit, pgvector), SSL certificates, and the correct JDK.
+
+1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Apple Silicon native)
+2. Install [VS Code](https://code.visualstudio.com/) with the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+3. Open the repository in VS Code and click "Reopen in Container"
+
+### Alternative: Native Setup
 
 Install the required tools via [Homebrew](https://brew.sh/):
 
 ```bash
-# Install Java 21 (source level) - arm64 native
+# Install Java 21 (source level, arm64 native)
 brew install --cask temurin@21
 
-# Install Maven
+# Install Maven 3.9+
 brew install maven
 
-# Install PostgreSQL 18
-brew install postgresql@18
+# Install PostgreSQL
+brew install postgresql@17
 ```
 
-### Start PostgreSQL
+> **Note:** PostgreSQL 18 may not yet be available in Homebrew. Use the latest available version (17+). The pgaudit and pgvector extensions required for production are not available via Homebrew, but are not needed for basic local development and building.
+
+#### Start and Configure PostgreSQL
 
 ```bash
-brew services start postgresql@18
+brew services start postgresql@17
+
+# Enable prepared transactions
+psql -U $(whoami) -d postgres -c "ALTER SYSTEM SET max_prepared_transactions = 100;"
+
+# Restart to apply
+brew services restart postgresql@17
 ```
 
-### Configure PostgreSQL
-
-1. Find your PostgreSQL config directory:
-   ```bash
-   psql -U $(whoami) -d postgres -c "SHOW config_file;"
-   ```
-
-2. Edit `postgresql.conf` and add:
-   ```ini
-   max_prepared_transactions = 100
-   shared_preload_libraries = 'pg_stat_statements'
-   ```
-
-3. Restart PostgreSQL:
-   ```bash
-   brew services restart postgresql@18
-   ```
-
-### Create the Database
+#### Create the Database
 
 ```bash
-psql -U $(whoami) -d postgres -c "CREATE USER eris WITH password 'discord';"
-psql -U $(whoami) -d postgres -c "CREATE DATABASE cia_dev;"
-psql -U $(whoami) -d postgres -c "GRANT ALL PRIVILEGES ON DATABASE cia_dev to eris;"
+psql -U $(whoami) -d postgres <<SQL
+CREATE USER eris WITH password 'discord' SUPERUSER;
+CREATE DATABASE cia_dev;
+GRANT ALL PRIVILEGES ON DATABASE cia_dev TO eris;
+\c cia_dev
+GRANT ALL ON SCHEMA public TO eris;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON TABLES TO eris;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON SEQUENCES TO eris;
+SQL
 ```
 
-### Build and Run
+#### Build
 
 ```bash
-# Clone the repository
 git clone https://github.com/Hack23/cia.git
 cd cia
 
 # Build (skip tests for faster first build)
 mvn clean install -DskipTests
 
-# Build with tests
+# Build with tests (requires PostgreSQL running with database configured)
 mvn clean install
-
-# Run the application
-cd citizen-intelligence-agency
-mvn spring-boot:run
 ```
 
-Access the application at [https://localhost:28443/cia/](https://localhost:28443/cia/).
-
-> **Note:** The project source level is Java 21. The production runtime targets Java 26, but Java 21 is sufficient for local development on Apple Silicon.
+The application is packaged as a WAR file and deployed to an embedded Jetty server via the Debian package. For local testing, build the WAR and deploy it to a servlet container, or use the Dev Container setup above.
 
 ## 📊 Political Dashboards
 

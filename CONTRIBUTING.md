@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="https://hack23.com/icon-192.png" alt="Hack23 Logo" width="192" height="192">
 </p>
 
 <h1 align="center">🤝 Contributing — Citizen Intelligence Agency</h1>
@@ -10,13 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--02--20-success?style=for-the-badge" alt="Effective Date"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2026-02-20 (UTC)  
 
 ---
 
@@ -26,7 +20,6 @@ This contributing guide establishes secure contribution procedures for the Citiz
 
 We believe in **security through transparency** and **continuous improvement**, welcoming contributions that enhance the project while maintaining our high security standards.
 
-*— James Pether Sörling, CEO/Founder*
 
 ---
 

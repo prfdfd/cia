@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="https://hack23.com/icon-192.png" alt="Hack23 Logo" width="192" height="192">
 </p>
 
 <h1 align="center">⚠️ Risk Rules — Intelligence Operations & OSINT</h1>
@@ -10,13 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--12--11-success?style=for-the-badge" alt="Effective Date"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-12-11 (UTC)  
 
 ---
 
@@ -1881,7 +1875,6 @@ graph TB
 ### Documentation
 - [Project Architecture](ARCHITECTURE.md)
 - [Data Model](DATA_MODEL.md)
-- [SWOT Analysis](SWOT.md)
 - [Threat Model](THREAT_MODEL.md)
 - [Security Architecture](SECURITY_ARCHITECTURE.md)
 

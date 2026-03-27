@@ -1131,13 +1131,11 @@ dataquality.alert.minor.enabled=false
 - Review [DATA_ANALYSIS_INTOP_OSINT.md](DATA_ANALYSIS_INTOP_OSINT.md) for OSINT data quality
 - Check [Schema Maintenance Guide](service.data.impl/README-SCHEMA-MAINTENANCE.md) for database health
 - Review [View Intelligence Catalog](DATABASE_VIEW_INTELLIGENCE_CATALOG.md) for view validation
-- Contact: James Pether Sörling (project maintainer)
 
 ---
 
 ## 📄 License
 
-Copyright 2010-2025 James Pether Sörling
 
 Licensed under the Apache License, Version 2.0. See [LICENSE.txt](LICENSE.txt) for details.
 
@@ -1156,7 +1154,6 @@ Licensed under the Apache License, Version 2.0. See [LICENSE.txt](LICENSE.txt) f
 |  |  | - Added cross-references to all related documentation (4 categories) |  |
 |  |  | - Enhanced Architecture section with data flow diagrams |  |
 |  |  | - Updated with verified metrics from validation reports (2025-11-28) |  |
-| 1.0.0 | 2025-11-28 | Initial implementation - Phase 1: UI foundation | GitHub Copilot + James Pether Sörling |
 
 ---
 

@@ -924,13 +924,12 @@ This E2E Test Plan fulfills requirements from:
 **Review Cycle**: Quarterly review of E2E test strategy and coverage
 **Next Review**: Per ISMS compliance schedule
 **Metrics Tracking**: Test execution time, coverage, and success rate
-**Stakeholder Updates**: Regular reporting to CEO/Founder and development team
+**Stakeholder Updates**: Regular reporting to project stakeholders and development team
 
 ---
 
 ## 📊 Metadata
 
-**Document Owner:** CEO | **Version:** 1.0 | **Last Updated:** 2025-11-14  
 **Review Cycle:** Quarterly | **Next Review:** 2026-02-14  
 **Classification:** Public | **Compliance:** ISO 27001, NIST CSF, CRA
 
@@ -940,4 +939,3 @@ This E2E Test Plan fulfills requirements from:
 
 *"Testing is not just about finding bugs—it's about building confidence in our system and demonstrating our commitment to quality democratic technology."*
 
-*— James Pether Sörling, CEO/Founder, Hack23 AB*
