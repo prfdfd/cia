@@ -60,14 +60,9 @@ The Citizen Intelligence Agency project implements a comprehensive DevSecOps CI/
 | **[CI/CD Workflows](WORKFLOWS.md)**                 | 🔧 DevOps       | Current automation processes              | [View Source](https://github.com/Hack23/cia/blob/master/WORKFLOWS.md)           |
 | **[Future Workflows](FUTURE_WORKFLOWS.md)**         | 🔧 DevOps       | Enhanced CI/CD with ML                    | [View Source](https://github.com/Hack23/cia/blob/master/FUTURE_WORKFLOWS.md)    |
 | **[End-of-Life Strategy](End-of-Life-Strategy.md)** | 📅 Lifecycle    | Maintenance and EOL planning              | [View Source](https://github.com/Hack23/cia/blob/master/End-of-Life-Strategy.md) |
-| **[Financial Security Plan](FinancialSecurityPlan.md)** | 💰 Security | Cost and security implementation          | [View Source](https://github.com/Hack23/cia/blob/master/FinancialSecurityPlan.md) |
-| **[ISMS Compliance Mapping](ISMS_COMPLIANCE_MAPPING.md)** | 🔐 ISMS | Comprehensive ISMS-PUBLIC policy mapping | [View Source](https://github.com/Hack23/cia/blob/master/ISMS_COMPLIANCE_MAPPING.md) |
 | **[Security Architecture](SECURITY_ARCHITECTURE.md)** | 🛡️ Security | Complete security overview | [View Source](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) |
 | **[CIA Features](https://hack23.com/cia-features.html)** | 🚀 Features | Platform features overview                | [View on hack23.com](https://hack23.com/cia-features.html)                     |
 | **[Threat Model](THREAT_MODEL.md)**                 | 🛡️ Security     | Threat analysis informing pipeline gates  | [View Source](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md)        |
-| **[CRA Assessment](CRA-ASSESSMENT.md)**             | 🛡️ Compliance   | EU Cyber Resilience Act conformity        | [View Source](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md)      |
-| **[Business Continuity Plan](BCPPlan.md)**           | 📋 Resilience   | RTO/RPO targets and recovery procedures   | [View Source](https://github.com/Hack23/cia/blob/master/BCPPlan.md)             |
-| **[Business Product Document](BUSINESS_PRODUCT_DOCUMENT.md)** | 💼 Business | Data analytics and risk intelligence products | [View Source](https://github.com/Hack23/cia/blob/master/BUSINESS_PRODUCT_DOCUMENT.md) |
 
 </div>
 
@@ -653,7 +648,6 @@ on:
 
 ## 🔐 ISMS Policy Integration
 
-The CI/CD workflows implement security controls aligned with Hack23 AB's [ISMS-PUBLIC framework](https://github.com/Hack23/ISMS-PUBLIC). See the [ISMS Compliance Mapping](ISMS_COMPLIANCE_MAPPING.md) for complete policy-to-control traceability.
 
 ### Security Controls by ISMS Policy
 
@@ -666,7 +660,6 @@ The CI/CD workflows implement security controls aligned with Hack23 AB's [ISMS-P
 | [**Security Metrics**](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md) | OpenSSF Scorecard monitoring, Test coverage reporting, Build metrics | Automated dashboards |
 
 **Related Documentation:**
-- 📊 [ISMS Compliance Mapping](ISMS_COMPLIANCE_MAPPING.md) - Complete policy alignment
 - 🛡️ [Security Architecture](SECURITY_ARCHITECTURE.md) - Implementation details
 - 🎯 [Threat Model](THREAT_MODEL.md) - Risk-based security controls
 
@@ -1192,7 +1185,6 @@ The CI/CD workflows implement the following ISO 27001:2022 controls:
 ## 🔗 Related Resources
 
 ### ISMS Compliance Documentation
-- [ISMS Compliance Mapping](ISMS_COMPLIANCE_MAPPING.md) - Complete policy-to-control traceability
 - [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) - CI/CD workflow requirements
 - [Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) - Vulnerability handling procedures
 - [Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md) - Change control processes
@@ -1202,7 +1194,6 @@ The CI/CD workflows implement the following ISO 27001:2022 controls:
 - [Security Architecture](SECURITY_ARCHITECTURE.md) - Complete security overview
 - [Threat Model](THREAT_MODEL.md) - Threat analysis informing pipeline gates
 - [SECURITY.md](SECURITY.md) - Security policy and vulnerability reporting
-- [CRA Assessment](CRA-ASSESSMENT.md) - EU Cyber Resilience Act compliance
 
 ### Technical Documentation
 - [Architecture](ARCHITECTURE.md) - System architecture and design

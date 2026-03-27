@@ -22,31 +22,26 @@ This JSON schema is the **highest-value** data specification, powering **5 produ
 | **Temporal Trends** | [temporal-trends-example.json](../examples/temporal-trends-example.json) | Daily | ~13 KB |
 
 ### Product Integration (Revenue-Ranked)
-1. **[Risk Intelligence Feed](../../BUSINESS_PRODUCT_DOCUMENT.md#product-line-3-risk-intelligence-feed)** - Premium risk monitoring (€1.77M/year)
    - Real-time risk assessment with 50 behavioral rules
    - Early warning system for political instability
    - Compliance and governance reporting
    - **Primary Market**: Financial services (€20M+ TAM), Corporate risk (€12M TAM)
 
-2. **[Predictive Analytics](../../BUSINESS_PRODUCT_DOCUMENT.md#product-line-4-predictive-analytics-service)** - Forecasting service (€2.05M/year)
    - Electoral forecasting and seat projections
    - Coalition probability modeling
    - Risk escalation prediction
    - **Primary Market**: Strategic consulting (€30M+ TAM), Corporate strategy (€20M TAM)
 
-3. **[Decision Intelligence](../../BUSINESS_PRODUCT_DOCUMENT.md#product-line-6-decision-intelligence-suite)** - Legislative analytics (€2.09M/year)
    - Decision flow analytics and KPI dashboards
    - Approval rate forecasting
    - Ministry/party effectiveness tracking
    - **Primary Market**: Lobbying & consulting (€15M+ TAM), Corporate affairs (€10M TAM)
 
-4. **[Advanced Analytics Suite](../../BUSINESS_PRODUCT_DOCUMENT.md#product-line-2-advanced-analytics-suite)** - Analytics platform (€855K/year)
    - Political scorecards and benchmarking
    - Trend analysis and visualization
    - Comparative intelligence dashboards
    - **Primary Market**: Corporate affairs (€12M TAM), NGOs (€8M TAM)
 
-5. **[Political Intelligence API](../../BUSINESS_PRODUCT_DOCUMENT.md#product-line-1-political-intelligence-api)** - Core API (€630K/year)
    - Programmatic access to intelligence products
    - Real-time risk alerts via API
    - Analytical insights endpoints
@@ -61,7 +56,6 @@ This JSON schema is the **highest-value** data specification, powering **5 produ
 
 **Revenue Impact**: Products using this schema as their primary data source generate **€5.91M/year** (Risk Intelligence €1.77M + Predictive Analytics €2.05M + Decision Intelligence €2.09M), representing 65% of total product portfolio revenue (€9.1M). The Advanced Analytics Suite (€855K) and Political Intelligence API (€630K) use this schema alongside politician-schema.md and party-schema.md.
 
-**See Complete Business Strategy**: [BUSINESS_PRODUCT_DOCUMENT.md](../../BUSINESS_PRODUCT_DOCUMENT.md) | [Product-to-Data Mapping](../../BUSINESS_PRODUCT_DOCUMENT.md#appendix-e-product-to-data-mapping)
 
 ---
 

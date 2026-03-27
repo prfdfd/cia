@@ -219,7 +219,6 @@ Comprehensive tracking of intelligence capabilities, database views, risk rules,
 ### 📚 Documentation Enhancements
 - Updated DISTINCT_VALUES_ANALYSIS.md with committee referral pattern insights
 - Enhanced schema maintenance documentation for decision intelligence views
-- Cross-referenced with BUSINESS_PRODUCT_DOCUMENT.md for product alignment
 
 ---
 
@@ -649,7 +648,6 @@ No risk rule changes in this version (blocked by view issues, now resolved)
 No new risk rules in this version (views enable rules added in v1.35)
 
 ### 📚 Documentation Enhancements
-- Comprehensive JSON spec integration in BUSINESS_PRODUCT_DOCUMENT.md
 - Automated view documentation validation
 - Mermaid visualizations for 10 intelligence dashboards
 - Enhanced cross-referencing between intelligence documents
@@ -711,7 +709,6 @@ No new risk rules in this version (views enable rules added in v1.35)
 No new risk rules in this version (views enable rules added in v1.35)
 
 ### 📚 Documentation Enhancements
-- Comprehensive JSON spec integration in BUSINESS_PRODUCT_DOCUMENT.md
 - Automated view documentation validation
 - Mermaid visualizations for 10 intelligence dashboards
 - Enhanced cross-referencing between intelligence documents

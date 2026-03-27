@@ -224,4 +224,3 @@ Powers **Risk Intelligence Feed** (€1.77M revenue potential):
 **See Also:**
 - [intelligence-schema.md](./intelligence-schema.md) - Aspirational v2.0 with risk scoring
 - [politician-schema-v1.0.md](./politician-schema-v1.0.md) - Related politician schema
-- [BUSINESS_PRODUCT_DOCUMENT.md](../../BUSINESS_PRODUCT_DOCUMENT.md) - Product strategy

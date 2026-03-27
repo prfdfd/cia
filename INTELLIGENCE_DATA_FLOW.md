@@ -52,7 +52,6 @@ This document serves as the **central navigation hub** for the CIA platform's in
 | **[Intelligence Changelog](CHANGELOG_INTELLIGENCE.md)** | 📜 History | Unified capability tracking |
 | **[Liquibase Analysis](LIQUIBASE_CHANGELOG_INTELLIGENCE_ANALYSIS.md)** | 🗄️ Schema | Schema evolution analysis |
 | **[Data Model](DATA_MODEL.md)** | 📊 Structure | Database schema relationships |
-| **[Business Product Doc](BUSINESS_PRODUCT_DOCUMENT.md)** | 💼 Strategy | Product strategy and features |
 
 </td>
 </tr>

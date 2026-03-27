@@ -447,7 +447,6 @@ gh api repos/OWNER/REPO/issues/ISSUE_NUMBER --jq '.node_id'
 - [GitHub REST API - Add Assignees](https://docs.github.com/en/rest/issues/assignees#add-assignees-to-an-issue)
 - [GitHub GraphQL API - Mutations](https://docs.github.com/en/graphql/reference/mutations)
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
-- [Repository Custom Agents](.github/agents/README.md)
 
 ## 🤝 Contributing
 

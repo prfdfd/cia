@@ -119,8 +119,6 @@ For complete details on how CIA implements security controls:
 - **🛡️ Security Architecture:** [SECURITY_ARCHITECTURE.md](./SECURITY_ARCHITECTURE.md) - Defense-in-depth security design
 - **🔮 Future Security Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](./FUTURE_SECURITY_ARCHITECTURE.md) - Security roadmap
 - **🎯 Threat Model:** [THREAT_MODEL.md](./THREAT_MODEL.md) - STRIDE and MITRE ATT&CK analysis
-- **📋 ISMS Compliance Mapping:** [ISMS_COMPLIANCE_MAPPING.md](./ISMS_COMPLIANCE_MAPPING.md) - Framework-to-control mapping
-- **⚖️ CRA Assessment:** [CRA-ASSESSMENT.md](./CRA-ASSESSMENT.md) - EU Cyber Resilience Act compliance
 
 ---
 
@@ -138,10 +136,7 @@ For complete details on how CIA implements security controls:
 - [🛡️ Security Architecture](./SECURITY_ARCHITECTURE.md) - Current security implementation
 - [🔮 Future Security Architecture](./FUTURE_SECURITY_ARCHITECTURE.md) - Planned security enhancements
 - [🎯 Threat Model](./THREAT_MODEL.md) - STRIDE analysis and attack trees
-- [📋 CRA Assessment](./CRA-ASSESSMENT.md) - EU Cyber Resilience Act compliance
-- [🗺️ ISMS Compliance Mapping](./ISMS_COMPLIANCE_MAPPING.md) - Complete ISMS policy mapping
 - [📅 End-of-Life Strategy](./End-of-Life-Strategy.md) - Security patching and support lifecycle
-- [💰 Financial Security Plan](./FinancialSecurityPlan.md) - Cost and security implementation
 
 ### 🔄 Development & Operations
 - [🔄 CI/CD Workflows](./WORKFLOWS.md) - Security-hardened CI/CD pipelines

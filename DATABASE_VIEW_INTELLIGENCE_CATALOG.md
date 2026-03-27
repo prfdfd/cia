@@ -100,7 +100,6 @@ Views are classified by intelligence value for analytical operations:
 
 | Document | Link | Description |
 |----------|------|-------------|
-| **Business Product Document** | [BUSINESS_PRODUCT_DOCUMENT.md](BUSINESS_PRODUCT_DOCUMENT.md) | Commercial product strategy and market analysis |
 | **JSON Export Specifications** | [json-export-specs/](json-export-specs/) | API schemas and data format specifications |
 | **Intelligence Data Flow Map** | [INTELLIGENCE_DATA_FLOW.md](INTELLIGENCE_DATA_FLOW.md) | Central cross-reference hub showing data pipeline |
 | **Intelligence Evolution Changelog** | [CHANGELOG_INTELLIGENCE.md](CHANGELOG_INTELLIGENCE.md) | Unified intelligence capability tracking |
@@ -507,7 +506,6 @@ Politician views provide comprehensive intelligence on individual parliamentary 
 #### Business Context
 
 **Market Value:** €15M TAM (Political Consulting segment)  
-**Product Integration:** [Political Intelligence API](BUSINESS_PRODUCT_DOCUMENT.md#product-line-1-political-intelligence-api) (Product Line 1)  
 **Revenue Impact:** Core data source for €99/month Professional tier subscriptions  
 **JSON Export Spec:** [politician-schema.md](json-export-specs/schemas/politician-schema.md)  
 **API Endpoint:** `GET /api/v1/politicians`, `GET /api/v1/politicians/{id}`
@@ -523,7 +521,6 @@ Politician views provide comprehensive intelligence on individual parliamentary 
 - **Media & Journalism** (€8M TAM): Investigative reporting, fact-checking, political profiles
 - **Academic Research** (€5M TAM): Electoral studies, political behavior analysis, comparative politics
 
-**Business Documentation:** See [BUSINESS_PRODUCT_DOCUMENT.md#product-line-1](BUSINESS_PRODUCT_DOCUMENT.md#product-line-1-political-intelligence-api)
 
 #### Purpose
 
@@ -691,7 +688,6 @@ From [DATA_ANALYSIS_INTOP_OSINT.md](DATA_ANALYSIS_INTOP_OSINT.md):
 
 #### Integration with Product Features
 
-From [BUSINESS_PRODUCT_DOCUMENT.md](BUSINESS_PRODUCT_DOCUMENT.md):
 - **Politician Dashboard** (Product Line 1): Core profile data
 - **Search & Discovery** (Product Line 1): Politician lookup
 - **Comparative Analytics** (Product Line 2): Party composition
@@ -899,7 +895,6 @@ From [DATA_ANALYSIS_INTOP_OSINT.md](DATA_ANALYSIS_INTOP_OSINT.md):
 
 #### Integration with Product Features
 
-From [BUSINESS_PRODUCT_DOCUMENT.md](BUSINESS_PRODUCT_DOCUMENT.md):
 - **Politician Dashboard** (Product Line 1): Experience metrics
 - **Advanced Analytics** (Product Line 2): Experience distribution
 - **Comparative Tools** (Product Line 2): Experience benchmarking
@@ -1663,7 +1658,6 @@ From [DATA_ANALYSIS_INTOP_OSINT.md](DATA_ANALYSIS_INTOP_OSINT.md):
 
 #### Integration with Product Features
 
-From [BUSINESS_PRODUCT_DOCUMENT.md](BUSINESS_PRODUCT_DOCUMENT.md):
 - **Politician Dashboard** (Product Line 1): Decision effectiveness metrics
 - **Committee Analysis** (Product Line 2): Specialist identification
 - **Comparative Analytics** (Product Line 2): Decision success benchmarking
@@ -3719,7 +3713,6 @@ Party views provide organizational-level intelligence on Swedish political parti
 #### Business Context
 
 **Market Value:** €8M TAM (Media & Journalism segment)  
-**Product Integration:** [Political Intelligence API](BUSINESS_PRODUCT_DOCUMENT.md#product-line-1-political-intelligence-api), [Advanced Analytics Suite](BUSINESS_PRODUCT_DOCUMENT.md#product-line-2-advanced-analytics-suite)  
 **Revenue Impact:** Essential for €6,000/month Professional and €15,000/month Enterprise tiers  
 **JSON Export Spec:** [party-schema.md](json-export-specs/schemas/party-schema.md)  
 **API Endpoint:** `GET /api/v1/parties`, `GET /api/v1/parties/{id}`
@@ -3736,7 +3729,6 @@ Party views provide organizational-level intelligence on Swedish political parti
 - **Political Consulting** (€15M TAM): Coalition forecasting, opposition research, campaign strategy
 - **Academic Research** (€5M TAM): Political science research, party system analysis
 
-**Business Documentation:** See [BUSINESS_PRODUCT_DOCUMENT.md#product-line-1](BUSINESS_PRODUCT_DOCUMENT.md#product-line-1-political-intelligence-api)
 
 #### Purpose
 
@@ -4573,7 +4565,6 @@ From [DATA_ANALYSIS_INTOP_OSINT.md](DATA_ANALYSIS_INTOP_OSINT.md):
 
 #### Integration with Product Features
 
-From [BUSINESS_PRODUCT_DOCUMENT.md](BUSINESS_PRODUCT_DOCUMENT.md):
 - **Party Dashboard** (Product Line 1): Legislative effectiveness metrics
 - **Coalition Analysis** (Product Line 2): Formation scenario modeling
 - **Committee Analytics** (Product Line 2): Committee influence assessment
@@ -8094,7 +8085,6 @@ Views implementing frameworks from [DATA_ANALYSIS_INTOP_OSINT.md](DATA_ANALYSIS_
 
 ### Product Feature Mapping
 
-Views supporting features from [BUSINESS_PRODUCT_DOCUMENT.md](BUSINESS_PRODUCT_DOCUMENT.md):
 
 | Product Line | Feature | Supporting Views |
 |-------------|---------|-----------------|
@@ -8143,7 +8133,6 @@ Views supporting features from [BUSINESS_PRODUCT_DOCUMENT.md](BUSINESS_PRODUCT_D
 
 ### Appendix C: View-to-Product Mapping
 
-This appendix maps database views to business product features per [BUSINESS_PRODUCT_DOCUMENT.md](BUSINESS_PRODUCT_DOCUMENT.md), establishing complete traceability from data sources to commercial products.
 
 **Total Addressable Market (TAM):** €46M across 5 market segments (Political Consulting €15M, Media & Journalism €8M, Academic Research €5M, Corporate Affairs €12M, Government Transparency €6M)  
 **Annual Revenue Potential:** €5.1M across cross-product feature categories (see Cross-Product Feature Matrix below)  
@@ -8157,7 +8146,6 @@ This appendix maps database views to business product features per [BUSINESS_PRO
 
 #### Product Line 1: Political Intelligence API (€630K annual revenue potential)
 
-**Revenue Source:** [BUSINESS_PRODUCT_DOCUMENT.md#product-line-1-political-intelligence-api](BUSINESS_PRODUCT_DOCUMENT.md#product-line-1-political-intelligence-api) - €630,000 total (€450K subscription fees + €60K overage + €120K custom development)
 
 **Target Segments:** Political Consulting (€15M TAM), Media & Journalism (€8M TAM), Academic Research (€5M TAM)
 
@@ -8171,13 +8159,11 @@ This appendix maps database views to business product features per [BUSINESS_PRO
 | `view_riksdagen_vote_data_ballot_politician_summary` | Individual Voting Records | [politician-schema.md#voting](json-export-specs/schemas/politician-schema.md#voting-section) | `GET /api/v1/politicians/{id}/voting` | All segments | Pro €99/mo |
 | `view_rule_violation` | Risk Assessment Feed | [intelligence-schema.md](json-export-specs/schemas/intelligence-schema.md) | `GET /api/v1/politicians/{id}/risk` | Political Consulting | Premium feature |
 
-**Business Documentation:** [BUSINESS_PRODUCT_DOCUMENT.md#product-line-1](BUSINESS_PRODUCT_DOCUMENT.md#product-line-1-political-intelligence-api)
 
 ---
 
 #### Product Line 2: Advanced Analytics Suite (€855K annual revenue potential)
 
-**Revenue Source:** [BUSINESS_PRODUCT_DOCUMENT.md#product-line-2-advanced-analytics-suite](BUSINESS_PRODUCT_DOCUMENT.md#product-line-2-advanced-analytics-suite) - €855,000 total (€720K subscription fees + €90K custom dashboards + €45K training)
 
 **Target Segments:** Corporate Government Affairs (€12M TAM), NGOs & Advocacy, Political Parties
 
@@ -8190,13 +8176,11 @@ This appendix maps database views to business product features per [BUSINESS_PRO
 | `view_riksdagen_committee_decisions` | Committee Activity Tracker | [committee-schema.md](json-export-specs/schemas/committee-schema.md) | All segments | Professional €6K/mo |
 | `view_ministry_effectiveness_trends` | Government Performance Monitor | [ministry-schema.md](json-export-specs/schemas/ministry-schema.md) | Corporate Affairs | Enterprise €15K/mo |
 
-**Business Documentation:** [BUSINESS_PRODUCT_DOCUMENT.md#product-line-2](BUSINESS_PRODUCT_DOCUMENT.md#product-line-2-advanced-analytics-suite)
 
 ---
 
 #### Product Line 3: Risk Intelligence Feed (€1.77M annual revenue potential)
 
-**Revenue Source:** [BUSINESS_PRODUCT_DOCUMENT.md#product-line-3-risk-intelligence-feed](BUSINESS_PRODUCT_DOCUMENT.md#product-line-3-risk-intelligence-feed) - €1,770,000 total (€900K subscription fees + €500K alerting + €220K consulting + €150K services)
 
 **Target Segments:** Political Consulting, Corporate Affairs, Media & Journalism
 
@@ -8208,13 +8192,11 @@ This appendix maps database views to business product features per [BUSINESS_PRO
 | `view_risk_score_evolution` | Risk Trend Analysis | ⭐⭐⭐⭐⭐ | Political Consulting | €5,900/mo |
 | `view_ministry_risk_evolution` | Government Risk Monitor | ⭐⭐⭐⭐ | Corporate Affairs | €5,900/mo |
 
-**Business Documentation:** [BUSINESS_PRODUCT_DOCUMENT.md#product-line-3](BUSINESS_PRODUCT_DOCUMENT.md#product-line-3-risk-intelligence-feed)
 
 ---
 
 #### Product Line 4: Custom Report Generator (€525K annual revenue potential)
 
-**Revenue Note:** This is a simplified representation of report generation features that appear across multiple product lines in BUSINESS_PRODUCT_DOCUMENT.md. The €525K figure is estimated based on view-to-product mapping: (20 Professional subscriptions at €6K/mo × 12 = €1.44M total, with ~36% allocated to custom reporting = €525K). See [BUSINESS_PRODUCT_DOCUMENT.md](BUSINESS_PRODUCT_DOCUMENT.md) for complete product line breakdown.
 
 **Target Segments:** All segments, customizable templates
 
@@ -8225,7 +8207,6 @@ This appendix maps database views to business product features per [BUSINESS_PRO
 | `view_committee_productivity_matrix` | Committee Performance Report | Excel, PDF | NGOs & Advocacy | Professional €6K/mo |
 | `view_riksdagen_politician_document_summary` | Legislative Productivity Report | PDF, Excel | Media & Journalism | Starter €2K/mo |
 
-**Business Documentation:** [BUSINESS_PRODUCT_DOCUMENT.md#product-line-4](BUSINESS_PRODUCT_DOCUMENT.md#product-line-4-custom-report-generator)
 
 ---
 
@@ -8344,7 +8325,6 @@ All views are exported via JSON API with standardized schemas. See complete spec
 | 1.0 | 2025-11-17 | Initial comprehensive catalog creation | Intelligence Operative |
 | 1.1 | 2025-11-20 | **Validation & Corrections** - Validated against full_schema.sql; Added Complete View Inventory section listing all 82 views; Updated Executive Summary with accurate statistics (9 detailed, 73 basic coverage); Added validation metadata; Identified 73 undocumented views requiring detailed documentation | Intelligence Operative |
 | 2.0 | 2025-11-21 | **Complete Documentation Achievement** - Added comprehensive structured documentation for all 73 remaining views; Documented all politician views (ballot summary, influence metrics, risk summary, document summaries); Documented all intelligence views (dashboard, crisis resilience, voting anomaly detection); Completed ministry/government views (effectiveness trends, productivity matrix, risk evolution, government structure); Documented all party views (performance metrics, momentum analysis, document summaries, coalition patterns); Completed vote data views (20 ballot/party/politician summaries at daily/weekly/monthly/annual granularities); Documented all committee views (productivity, decisions, roles, membership); Completed document views and application/audit views; Added WorldBank data view documentation; **Achievement: 100% documentation coverage (85/85 views documented; later corrected to 84 in v2.1 after schema reverification)** | Intelligence Operative (Copilot Agent) |
-| 2.1 | 2025-11-25 | **Business Context Integration & Statistical Corrections (v1.36)** - ✅ Reverified view counts: corrected from 85 to 84 total views (56 regular + 28 materialized); ✅ Updated "Last Validated" date from 2025-11-22 to 2025-11-25; ✅ Added business value context to key views (view_riksdagen_politician, view_riksdagen_party) with TAM metrics, product integration links, and customer segments; ✅ Added comprehensive Appendix C: View-to-Product Mapping linking 22+ key views to commercial products across 4 product lines (€5.1M annual revenue potential); ✅ Integrated JSON export specification cross-references for API endpoints; ✅ Added links to BUSINESS_PRODUCT_DOCUMENT.md throughout catalog; ✅ Enhanced Related Documentation section with Business Product Document and JSON Export Specs | Intelligence Operative (Copilot Agent) |
 | 2.2 | 2025-12-10 | **Validation Report Consolidation** - ✅ Added comprehensive "Validation History" section consolidating DATABASE_VIEW_VALIDATION_REPORT.md content; ✅ Documented validation methodology with executable commands; ✅ Added validation schedule and procedures; ✅ Included historical validation timeline showing coverage progression (10.98% → 100%); ✅ Added health metrics and validation tools reference; ✅ Removed DATABASE_VIEW_VALIDATION_REPORT.md reference (content now integrated); ✅ Part of validation documentation consolidation effort (single source of truth) | Intelligence Operative (Copilot Agent) |
 
 ## Validation & Corrections Log
@@ -8466,7 +8446,6 @@ See [Validation History](#-validation-history) section for complete validation m
    - JSON Schema Integration Reference with 5 schema categories
 
 3. **Related Documentation Updated**:
-   - Added [BUSINESS_PRODUCT_DOCUMENT.md](BUSINESS_PRODUCT_DOCUMENT.md) to Related Documentation table
    - Added [json-export-specs/](json-export-specs/) link to Related Documentation
    - Cross-referenced business documentation throughout catalog
 
@@ -8486,8 +8465,6 @@ See [Validation History](#-validation-history) section for complete validation m
 
 **Quality Validation:**
 - ✓ All view counts verified against service.data.impl/src/main/resources/full_schema.sql
-- ✓ TAM figures sourced from BUSINESS_PRODUCT_DOCUMENT.md (€46M across 5 segments)
-- ✓ Product Line 1-3 revenue figures sourced from BUSINESS_PRODUCT_DOCUMENT.md (€630K, €855K, €1.77M)
 - ✓ Product Line 4 revenue estimated based on view mapping and cross-product allocation (€525K)
 - ✓ Cross-Product Feature Matrix totals (€5.1M) represent primary revenue model
 - ✓ JSON schema links validated against json-export-specs/schemas/ directory

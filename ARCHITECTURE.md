@@ -46,15 +46,10 @@ This document serves as the primary entry point for the Citizen Intelligence Age
 | **[CI/CD Workflows](WORKFLOWS.md)**                 | 🔧 DevOps       | Current automation processes              | [View Source](https://github.com/Hack23/cia/blob/master/WORKFLOWS.md)           |
 | **[Future Workflows](FUTURE_WORKFLOWS.md)**         | 🔧 DevOps       | Enhanced CI/CD with ML                    | [View Source](https://github.com/Hack23/cia/blob/master/FUTURE_WORKFLOWS.md)    |
 | **[End-of-Life Strategy](End-of-Life-Strategy.md)** | 📅 Lifecycle    | Maintenance and EOL planning              | [View Source](https://github.com/Hack23/cia/blob/master/End-of-Life-Strategy.md) |
-| **[Financial Security Plan](FinancialSecurityPlan.md)** | 💰 Security | Cost and security implementation          | [View Source](https://github.com/Hack23/cia/blob/master/FinancialSecurityPlan.md) |
-| **[ISMS Compliance Mapping](ISMS_COMPLIANCE_MAPPING.md)** | 🔐 ISMS | Comprehensive ISMS-PUBLIC policy mapping | [View Source](https://github.com/Hack23/cia/blob/master/ISMS_COMPLIANCE_MAPPING.md) |
 | **[Security Architecture](SECURITY_ARCHITECTURE.md)** | 🛡️ Security | Complete security overview | [View Source](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) |
 | **[CIA Features](https://hack23.com/cia-features.html)** | 🚀 Features | Platform features overview                | [View on hack23.com](https://hack23.com/cia-features.html)                     |
 | **[Threat Model](THREAT_MODEL.md)**                 | 🛡️ Security     | Platform threat analysis (STRIDE/MITRE)   | [View Source](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md)        |
 | **[Future Threat Model](FUTURE_THREAT_MODEL.md)**   | 🛡️ Security     | Future threat landscape (AI/PQC/2026-2037)| [View Source](https://github.com/Hack23/cia/blob/master/FUTURE_THREAT_MODEL.md) |
-| **[CRA Assessment](CRA-ASSESSMENT.md)**             | 🛡️ Compliance   | EU Cyber Resilience Act conformity        | [View Source](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md)      |
-| **[Business Continuity Plan](BCPPlan.md)**           | 📋 Resilience   | RTO/RPO targets and recovery procedures   | [View Source](https://github.com/Hack23/cia/blob/master/BCPPlan.md)             |
-| **[Business Product Document](BUSINESS_PRODUCT_DOCUMENT.md)** | 💼 Business | Data analytics and risk intelligence products | [View Source](https://github.com/Hack23/cia/blob/master/BUSINESS_PRODUCT_DOCUMENT.md) |
 
 </div>
 
@@ -101,7 +96,7 @@ C4Context
 
 ## 🏛️ C4 Container Diagram
 
-This diagram reveals the modular construction of the application with distinct containers for the web application, service layer, data access, and external data integration. See [README.md - AWS Services Stack](README.md#aws-services-stack) for cloud deployment details and [Financial Security Plan](FinancialSecurityPlan.md) for security implementation.
+This diagram reveals the modular construction of the application with distinct containers for the web application, service layer, data access, and external data integration. See [README.md - AWS Services Stack](README.md#aws-services-stack) for cloud deployment details.
 
 ```mermaid
 C4Container
@@ -429,7 +424,6 @@ C4Dynamic
 
 ## 🔒 Security Architecture
 
-For detailed information on AWS security implementations and costs, see the [Financial Security Plan](FinancialSecurityPlan.md).
 
 ### 1. Authentication and Authorization
 
@@ -545,7 +539,6 @@ The CIA architecture demonstrates a well-structured, modular design that effecti
 - [Mindmaps](MINDMAP.md) - Conceptual overview of system components and relationships
 - [Future Vision](FUTURE_MINDMAP.md) - Roadmap for AI-enhanced capabilities
 - [End-of-Life Strategy](End-of-Life-Strategy.md) - Technology maintenance plans
-- [Financial Security Plan](FinancialSecurityPlan.md) - AWS security implementations
 - [README](README.md) - Project overview and quick links
 - [CIA Features](https://hack23.com/cia-features.html) - Detailed features with screenshots
 - [Project Documentation](https://hack23.github.io/cia/) - Comprehensive developer resources

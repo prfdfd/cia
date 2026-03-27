@@ -116,7 +116,6 @@ This document provides comprehensive documentation of data analysis methodologie
 | **[Flowcharts](FLOWCHART.md)** | 🔄 Process | Data processing workflows | [View](https://github.com/Hack23/cia/blob/master/FLOWCHART.md) |
 | **[SWOT Analysis](SWOT.md)** | 💼 Strategic | Strategic assessment | [View](https://github.com/Hack23/cia/blob/master/SWOT.md) |
 | **[Threat Model](THREAT_MODEL.md)** | 🛡️ Security | Threat analysis (STRIDE/MITRE) | [View](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) |
-| **[Intelligence Operative Agent](.github/agents/intelligence-operative.md)** | 🕵️ Agent | AI agent specification | [View](https://github.com/Hack23/cia/blob/master/.github/agents/intelligence-operative.md) |
 
 </div>
 
@@ -10088,7 +10087,6 @@ print(f"95th Percentile: {percentile_95:.2f}%")
 - [Flowcharts](FLOWCHART.md) - Data processing workflows
 - [SWOT Analysis](SWOT.md) - Strategic assessment
 - [Threat Model](THREAT_MODEL.md) - Security analysis
-- [Intelligence Operative Agent](.github/agents/intelligence-operative.md) - AI agent specification
 
 ### External Resources
 - [Swedish Parliament (Riksdagen) API](https://data.riksdagen.se/)

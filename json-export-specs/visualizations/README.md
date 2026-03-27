@@ -13,7 +13,6 @@ This directory contains comprehensive visualization documentation for rendering 
 - **45-50 Risk Rules**: [RISK_RULES_INTOP_OSINT.md](../../RISK_RULES_INTOP_OSINT.md)
 - **JSON Schemas**: [schemas/](../schemas/) (politician, party, committee, ministry, intelligence)
 - **Analysis Frameworks**: [DATA_ANALYSIS_INTOP_OSINT.md](../../DATA_ANALYSIS_INTOP_OSINT.md)
-- **Business Products**: [BUSINESS_PRODUCT_DOCUMENT.md](../../BUSINESS_PRODUCT_DOCUMENT.md)
 
 Each visualization guide includes:
 
@@ -323,7 +322,6 @@ When adding new visualization guides:
 - [Database View Catalog](../../DATABASE_VIEW_INTELLIGENCE_CATALOG.md) - 85 documented database views
 - [Risk Rules Documentation](../../RISK_RULES_INTOP_OSINT.md) - 45-50 behavioral detection rules
 - [Data Analysis Frameworks](../../DATA_ANALYSIS_INTOP_OSINT.md) - OSINT methodologies
-- [Business Product Document](../../BUSINESS_PRODUCT_DOCUMENT.md) - Data products and APIs
 - [Intelligence Data Flow](../../INTELLIGENCE_DATA_FLOW.md) - Complete data pipeline
 
 ## Actual Data Sources

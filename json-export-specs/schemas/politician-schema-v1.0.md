@@ -305,5 +305,4 @@ See [politician-schema.md](./politician-schema.md) for **aspirational v2.0 schem
 
 **See Also:**
 - [politician-schema.md](./politician-schema.md) - Aspirational v2.0 with computed fields
-- [BUSINESS_PRODUCT_DOCUMENT.md](../../BUSINESS_PRODUCT_DOCUMENT.md) - Product strategy
 - [validate-field-completeness.sh](../validate-field-completeness.sh) - Validation script

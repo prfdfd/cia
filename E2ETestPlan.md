@@ -875,7 +875,6 @@ Tests run: 80, Failures: 0, Errors: 0, Skipped: 0
 - [Secure Development Policy - E2E Testing Requirements](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md#-end-to-end-testing-strategy)
 - [CIA Architecture Documentation](https://github.com/Hack23/cia/blob/master/ARCHITECTURE.md)
 - [CIA Security Architecture](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md)
-- [ISMS Compliance Mapping](https://github.com/Hack23/cia/blob/master/ISMS_COMPLIANCE_MAPPING.md)
 
 ### Testing Frameworks & Tools
 - [Spring Integration Testing](https://docs.spring.io/spring-framework/reference/testing/integration.html)

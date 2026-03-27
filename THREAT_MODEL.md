@@ -61,12 +61,7 @@ Integrated with [🎯 Hack23 AB Threat Modeling Policy](https://github.com/Hack2
 | [🚀 Future Security Architecture](FUTURE_SECURITY_ARCHITECTURE.md) | Roadmap | Future security enhancements and capabilities |
 | [🔮 Future Threat Model](FUTURE_THREAT_MODEL.md) | Risk Analysis | Future threat landscape (AI/PQC/2026-2037) |
 | [🏛️ Architecture](ARCHITECTURE.md) | System Design | Overall platform architecture |
-| [🔐 ISMS Compliance Mapping](ISMS_COMPLIANCE_MAPPING.md) | Policy Framework | Comprehensive ISMS-PUBLIC policy mapping |
-| [🛡️ CRA Assessment](CRA-ASSESSMENT.md) | Compliance | EU Cyber Resilience Act conformity |
-| [💰 Financial Security Plan](FinancialSecurityPlan.md) | Investment | AWS security implementation costs and ROI |
 | [📅 End-of-Life Strategy](End-of-Life-Strategy.md) | Lifecycle | Technology maintenance and patching strategy |
-| [📋 Business Continuity Plan](BCPPlan.md) | Resilience | RTO/RPO targets and recovery procedures |
-| [💼 Business Product Document](BUSINESS_PRODUCT_DOCUMENT.md) | Business | Data analytics and risk intelligence products |
 
 ---
 

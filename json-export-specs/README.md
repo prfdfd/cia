@@ -30,9 +30,6 @@ The 5 JSON export schemas are continuously validated against 138 relevant CSV sa
 These JSON specifications are the **technical foundation** for the CIA product portfolio, enabling all 6 product lines with structured political intelligence data.
 
 ### Business Strategy Documentation
-- **[BUSINESS_PRODUCT_DOCUMENT.md](../BUSINESS_PRODUCT_DOCUMENT.md)** - Complete business strategy with product-to-data mapping (€46M TAM)
-- **[BUSINESS_PRODUCT_DOCUMENT.md#technical-data-specifications](../BUSINESS_PRODUCT_DOCUMENT.md#technical-data-specifications)** - Product-to-Data Mapping Table
-- **[BUSINESS_PRODUCT_DOCUMENT.md#appendix-e-product-to-data-mapping](../BUSINESS_PRODUCT_DOCUMENT.md#appendix-e-product-to-data-mapping)** - Comprehensive traceability from features to data
 
 ### Market Opportunity
 The JSON specifications power products serving 5 customer segments with **€46M Total Addressable Market**:
@@ -261,7 +258,6 @@ Each JSON schema directly supports specific product features and customer use ca
 | **[ministry-schema.md](schemas/ministry-schema.md)** | Decision Intelligence, White-Label Platform | Government ministry data, decision flows, policy effectiveness | Regulatory forecasting, €10M TAM | Corporate risk, consulting firms |
 | **[intelligence-schema.md](schemas/intelligence-schema.md)** | Risk Intelligence, Predictive Analytics, Decision Intelligence | Risk assessment, predictions, decision analytics, trend forecasting | Premium analytics, €30M+ TAM | Financial services, strategic consulting |
 
-**See Complete Product Documentation**: [BUSINESS_PRODUCT_DOCUMENT.md](../BUSINESS_PRODUCT_DOCUMENT.md)
 
 ### Data Model Overview
 
@@ -525,7 +521,6 @@ Uses bash script validation following repository patterns with harden-runner sec
 ### Related Documentation
 
 - [FIELD_COMPLETENESS_REPORT.md](FIELD_COMPLETENESS_REPORT.md) - Detailed validation report
-- [BUSINESS_PRODUCT_DOCUMENT.md](../BUSINESS_PRODUCT_DOCUMENT.md) - Product-to-data mappings
 - [DATABASE_VIEW_INTELLIGENCE_CATALOG.md](../DATABASE_VIEW_INTELLIGENCE_CATALOG.md) - Complete view catalog
 
 ---
@@ -1068,7 +1063,6 @@ async function verifyDataIntegrity(url, expectedHash) {
 ### Related Documentation
 - [DATABASE_VIEW_INTELLIGENCE_CATALOG.md](../DATABASE_VIEW_INTELLIGENCE_CATALOG.md) - Source data views
 - [DATA_ANALYSIS_INTOP_OSINT.md](../DATA_ANALYSIS_INTOP_OSINT.md) - Intelligence frameworks
-- [BUSINESS_PRODUCT_DOCUMENT.md](../BUSINESS_PRODUCT_DOCUMENT.md) - Product strategy
 - [ARCHITECTURE.md](../ARCHITECTURE.md) - System architecture
 
 ### Schema Documentation

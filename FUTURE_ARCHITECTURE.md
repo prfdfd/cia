@@ -326,7 +326,6 @@ The AI evolution assumption—minor LLM updates every ~2.3 months and major vers
 - [Future Mindmaps](FUTURE_MINDMAP.md) — Future capability evolution roadmap
 - [Project README](README.md) — Get an overview of the Citizen Intelligence Agency project
 - [End-of-Life Strategy](End-of-Life-Strategy.md) — Understand technology maintenance plans
-- [Financial Security Plan](FinancialSecurityPlan.md) — Review AWS security implementations
 - [CIA Features](https://hack23.com/cia-features.html) — See detailed features with screenshots
 
 

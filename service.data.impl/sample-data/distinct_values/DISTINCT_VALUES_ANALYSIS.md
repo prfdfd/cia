@@ -14,7 +14,6 @@
 - [README-SCHEMA-MAINTENANCE.md](../../README-SCHEMA-MAINTENANCE.md) - **Main schema maintenance guide with Data Quality Analysis section**
 - [DATABASE_VIEW_INTELLIGENCE_CATALOG.md](../../../DATABASE_VIEW_INTELLIGENCE_CATALOG.md) - Complete catalog of database views (includes data quality warnings)
 - [DATA_ANALYSIS_INTOP_OSINT.md](../../../DATA_ANALYSIS_INTOP_OSINT.md) - Analytical frameworks and methodologies
-- [BUSINESS_PRODUCT_DOCUMENT.md](../../../BUSINESS_PRODUCT_DOCUMENT.md) - Product requirements and view usage
 
 ## Schema Maintenance Compliance
 

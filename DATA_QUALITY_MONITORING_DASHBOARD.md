@@ -844,7 +844,6 @@ This dashboard integrates with comprehensive intelligence documentation across t
 | Document | Focus | Link |
 |----------|-------|------|
 | **[Security Policy](SECURITY.md)** | Security | Platform security policy and reporting |
-| **[ISMS Compliance Mapping](ISMS_COMPLIANCE_MAPPING.md)** | ISMS | Policy mapping to security controls |
 | **[Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md)** | ISMS | Development security standards |
 | **[Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md)** | ISMS | Vulnerability handling procedures |
 | **[Incident Response Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Incident_Response_Plan.md)** | ISMS | Security incident response |

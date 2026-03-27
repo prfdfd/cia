@@ -195,7 +195,6 @@ cat FIELD_COMPLETENESS_REPORT.md
 
 - [../README.md](../README.md) - JSON export specs overview
 - [../validate-field-completeness.sh](../validate-field-completeness.sh) - Validation script
-- [../../BUSINESS_PRODUCT_DOCUMENT.md](../../BUSINESS_PRODUCT_DOCUMENT.md) - Product strategy
 - [SCHEMA_VALIDATION_REPORT.md](./SCHEMA_VALIDATION_REPORT.md) - Latest validation results
 
 ---

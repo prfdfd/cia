@@ -3822,7 +3822,6 @@ psql -U postgres -d cia_dev -f analyze-view-dependencies.sql > deps.csv
 - [DATA_MODEL.md](../../DATA_MODEL.md) - Complete data model documentation
 
 ### Agent Documentation
-- [intelligence-operative.md](../../.github/agents/intelligence-operative.md) - Intelligence operative agent definition
 
 ### Architecture and Security
 - [ARCHITECTURE.md](../../ARCHITECTURE.md) - System architecture

@@ -14,11 +14,7 @@ This document presents the security architecture evolution roadmap for the Citiz
 | **[Future Security Architecture](FUTURE_SECURITY_ARCHITECTURE.md)** | 🛡️ Security | Future security roadmap            | [View Source](https://github.com/Hack23/cia/blob/master/FUTURE_SECURITY_ARCHITECTURE.md) |
 | **[Threat Model](THREAT_MODEL.md)**                 | 🎯 Security     | STRIDE/MITRE ATT&CK threat analysis      | [View Source](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md)        |
 | **[Future Threat Model](FUTURE_THREAT_MODEL.md)**   | 🎯 Security     | Future threat landscape (AI/PQC/2026-2037)| [View Source](https://github.com/Hack23/cia/blob/master/FUTURE_THREAT_MODEL.md) |
-| **[ISMS Compliance Mapping](ISMS_COMPLIANCE_MAPPING.md)** | 🔐 ISMS | Comprehensive ISMS-PUBLIC policy mapping | [View Source](https://github.com/Hack23/cia/blob/master/ISMS_COMPLIANCE_MAPPING.md) |
 | **[End-of-Life Strategy](End-of-Life-Strategy.md)** | 📅 Lifecycle    | Maintenance and EOL planning              | [View Source](https://github.com/Hack23/cia/blob/master/End-of-Life-Strategy.md) |
-| **[Financial Security Plan](FinancialSecurityPlan.md)** | 💰 Security | Cost and security implementation          | [View Source](https://github.com/Hack23/cia/blob/master/FinancialSecurityPlan.md) |
-| **[Business Continuity Plan](BCPPlan.md)**           | 📋 Resilience   | RTO/RPO targets and recovery procedures   | [View Source](https://github.com/Hack23/cia/blob/master/BCPPlan.md)             |
-| **[Business Product Document](BUSINESS_PRODUCT_DOCUMENT.md)** | 💼 Business | Data analytics and risk intelligence products | [View Source](https://github.com/Hack23/cia/blob/master/BUSINESS_PRODUCT_DOCUMENT.md) |
 
 </div>
 
@@ -415,8 +411,6 @@ timeline
 
 - [Current Security Architecture](SECURITY_ARCHITECTURE.md) — Review current security implementation
 - [Threat Model](THREAT_MODEL.md) — STRIDE/MITRE ATT&CK threat analysis
-- [ISMS Compliance Mapping](ISMS_COMPLIANCE_MAPPING.md) — ISMS-PUBLIC policy mapping
-- [Financial Security Plan](FinancialSecurityPlan.md) — Security investment and costs
 - [Future Architecture](FUTURE_ARCHITECTURE.md) — Platform evolution roadmap
 - [End-of-Life Strategy](End-of-Life-Strategy.md) — Technology lifecycle management
 - [CI/CD Workflows](WORKFLOWS.md) — Security automation and DevSecOps

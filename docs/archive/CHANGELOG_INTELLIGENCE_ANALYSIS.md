@@ -65,7 +65,6 @@ This changelog documents changes to intelligence operations (INTOP), Open-Source
   - Supports coalition stability assessment
 
 **Documentation**:
-- Comprehensive JSON spec integration in BUSINESS_PRODUCT_DOCUMENT.md
 - Automated view documentation validation
 - Mermaid visualizations for 10 intelligence dashboards
 - Enhanced cross-referencing between intelligence documents
@@ -600,8 +599,6 @@ Changes are categorized as follows to facilitate tracking:
 - **Threat Model**: [THREAT_MODEL.md](THREAT_MODEL.md) - Security analysis
 
 ### Business & Products
-- **Business Products**: [BUSINESS_PRODUCT_DOCUMENT.md](BUSINESS_PRODUCT_DOCUMENT.md) - Product specifications
-- **Product Summary**: [PRODUCT_SUMMARY.md](PRODUCT_SUMMARY.md) - Product overview
 
 ### Specialized Changelogs
 - **Database Views Changelog**: See below for dedicated view change tracking

@@ -49,9 +49,6 @@ This document provides a conceptual overview of the Citizen Intelligence Agency 
 | **[CIA Features](https://hack23.com/cia-features.html)** | 🚀 Features | Platform features overview                | [View on hack23.com](https://hack23.com/cia-features.html)                     |
 | **[Security Architecture](SECURITY_ARCHITECTURE.md)** | 🛡️ Security | Defense-in-depth security overview        | [View Source](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) |
 | **[Threat Model](THREAT_MODEL.md)**                 | 🛡️ Security     | STRIDE/MITRE threat analysis              | [View Source](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md)        |
-| **[CRA Assessment](CRA-ASSESSMENT.md)**             | 🛡️ Compliance   | EU Cyber Resilience Act conformity        | [View Source](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md)      |
-| **[Business Continuity Plan](BCPPlan.md)**           | 📋 Resilience   | RTO/RPO targets and recovery procedures   | [View Source](https://github.com/Hack23/cia/blob/master/BCPPlan.md)             |
-| **[Business Product Document](BUSINESS_PRODUCT_DOCUMENT.md)** | 💼 Business | Data analytics and risk intelligence products | [View Source](https://github.com/Hack23/cia/blob/master/BUSINESS_PRODUCT_DOCUMENT.md) |
 
 </div>
 
@@ -608,7 +605,6 @@ This color scheme provides visual consistency across the architecture documentat
 - [Future Architecture Vision](FUTURE_MINDMAP.md) - Explore the roadmap for AI-enhanced capabilities
 - [Project README](README.md) - Get started with the Citizen Intelligence Agency project
 - [End-of-Life Strategy](End-of-Life-Strategy.md) - Understand the maintenance plan for current technologies
-- [Financial Security Plan](FinancialSecurityPlan.md) - Review cost breakdowns and AWS security implementations
 - [Project Documentation](https://hack23.github.io/cia/) - Comprehensive developer documentation
 - [CIA Features](https://hack23.com/cia-features.html) - Detailed feature showcase with screenshots
 

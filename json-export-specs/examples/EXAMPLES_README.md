@@ -481,7 +481,6 @@ All examples use realistic data ranges based on actual Swedish political statist
 - [Schema Specifications](../schemas/) - Detailed field definitions
 - [Visualization Guides](../visualizations/) - Implementation examples
 - [Validation Reports](../SCHEMA_VALIDATION_REPORT.md) - Quality assurance
-- [Business Product Document](../../BUSINESS_PRODUCT_DOCUMENT.md) - Product context
 
 ---
 
